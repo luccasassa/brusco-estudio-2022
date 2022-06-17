@@ -5,6 +5,7 @@
 *::before {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 //---------------------------------------------------UTILITY CLASSES
@@ -17,57 +18,51 @@
 
 //---------------------------------------------------NAVBAR
 
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-    display: none;
-}
+nav {
+    background-color: $white;
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    border-bottom: 1px solid #e9e9e9;
+    font-family: $font2;
 
-.navbar {
-    box-shadow: 0px 5px 10px 0px #aaa;
-    position: fixed;
-    width: 100%;
-    height: 60px;
-    background: $white;
-    color: $black;
-    opacity: 0.85;
-    z-index: 12;
-}
+    input, label {
+        display: none;
+        transition: .5s;
+    }
 
-.navbar-container {
-    display: flex;
-    justify-content: space-between;
-    height: 64px;
-    align-items: center;
-}
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+        text-decoration: none;
 
-.menu-items {
-    order: 2;
-    display: flex;
-}
+        li {
+            display: block;
+            list-style: none;
 
-.menu-items li {
-    list-style: none;
-    margin-left: 1.5rem;
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-}
+            .logo {
+                width: 12rem;
+                pointer-events: none;
+            }
 
-.menu-items a {
-    text-decoration: none;
-    color: $p4;
-    font-weight: 500;
-    transition: color 0.3s ease-in-out;
-}
+            a {
+                text-decoration: none;
+                color: #000;
 
-.menu-items a:hover {
-    color: $p1;
-    transition: color 0.3s ease-in-out;
-}
+                &:hover {
+                    color: $p1;
+                    transition: 0.2s ease;
+                }
+            }
 
-.logo {
-    order: 1;
-    font-size: 2.3rem;
-    margin-bottom: 0.5rem;
+            &:first-child {
+                margin-right: auto;
+                display: block;
+            }
+        }
+    }
 }
 
 //---------------------------------------------------FOOTER
@@ -75,7 +70,6 @@
 footer {
     height: 530px;
     max-height: auto;
-    width: 100%;
     background-color: $p5;
     display: flex;
 }

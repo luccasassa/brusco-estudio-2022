@@ -2,112 +2,75 @@
 
 //MOBILE RESPONSIVE---------------------------------------------------
 
-@media only screen and (min-width: 0px) and (max-width: 768px) {
-    .navbar {
-        opacity: 0.95;
+@media only screen and (min-width: 0px) and (max-width: 830px) {
+    
+    nav {
+        label {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 1.79rem;
+            cursor: pointer;
+    
+            .burger, .close {
+                font-size: 2.5rem;
+            }
+    
+            .close {
+                display: none;
+            }
+
+            &:active {
+                transition: .5s;
+                opacity: 0;
+            }
+        }
+
+
+        ul {
+            flex-direction: column;
+
+            li {
+                display: none;
+            }
+        }
+
+        input:checked ~ ul li:nth-child(2),
+        input:checked ~ ul li:nth-child(3),
+        input:checked ~ ul li:nth-child(4),
+        input:checked ~ ul li:nth-child(5),
+        input:checked ~ ul li:nth-child(6) {
+            display: block;
+
+            animation: baja 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) reverse both;
+
+            @keyframes baja {
+                0% {
+                    transform: translateY(0) scaleY(1) scaleX(1);
+                    transform-origin: 50% 0%;
+                    filter: blur(0);
+                    opacity: 1;
+                }
+                100% {
+                    transform: translateY(-1000px) scaleY(2) scaleX(0.2);
+                    transform-origin: 50% 0%;
+                    filter: blur(40px);
+                    opacity: 0;
+                }
+            }
+        }
+    
+        input:checked ~ label .close {
+            display: block;
+        }
+
+        input:checked ~ label .burger {
+            display: none;
+        }
     }
 
-    .navbar-container input[type="checkbox"],
-    .navbar-container .hamburger-lines {
-        display: block;
-    }
-
-    .navbar-container {
-        display: block;
-        position: relative;
-        height: 64px;
-    }
-
-    .navbar-container input[type="checkbox"] {
-        position: absolute;
-        display: block;
-        height: 32px;
-        width: 30px;
-        top: 20px;
-        left: 20px;
-        z-index: 5;
-        opacity: 0;
-    }
-
-    .navbar-container .hamburger-lines {
-        display: block;
-        height: 23px;
-        width: 35px;
-        position: absolute;
-        top: 17px;
-        left: 20px;
-        z-index: 2;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .navbar-container .hamburger-lines .line {
-        display: block;
-        height: 4px;
-        width: 100%;
-        border-radius: 10px;
-        background: $p4;
-    }
-
-    .navbar-container .hamburger-lines .line1 {
-        transform-origin: 0% 0%;
-        transition: transform 0.2s ease-in-out;
-    }
-
-    .navbar-container .hamburger-lines .line2 {
-        transition: transform 0.2s ease-in-out;
-    }
-
-    .navbar-container .hamburger-lines .line3 {
-        transform-origin: 0% 100%;
-        transition: transform 0.2s ease-in-out;
-    }
-
-    .navbar .menu-items {
-        padding-top: 100px;
-        background: $white;
-        height: 100vh;
-        max-width: 300px;
-        transform: translate(-150%);
-        display: flex;
-        flex-direction: column;
-        margin-left: -40px;
-        padding-left: 50px;
-        transition: transform 0.5s ease-in-out;
-        box-shadow: 5px 0px 10px 0px $p7;
-    }
-
-    .navbar .menu-items li {
-        margin-bottom: 1.5rem;
-        font-size: 1.3rem;
-        font-weight: 500;
-    }
-
-    .logo {
-        position: absolute;
-        top: 5px;
-        right: 15px;
-        font-size: 2rem;
-    }
-
-    .navbar-container input[type="checkbox"]:checked~.menu-items {
-        transform: translateX(0);
-    }
-
-    .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
-        transform: rotate(35deg);
-    }
-
-    .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
-        transform: scaleY(0);
-    }
-
-    .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
-        transform: rotate(-35deg);
-    }
-
-    /***************8*/
+    /****************/
     
     footer {
         height: auto;
