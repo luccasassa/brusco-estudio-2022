@@ -3,17 +3,24 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 $p1: #ffd73a;
-$p1: #ffe682;
+$p2: #ffe682;
 $p3: #fff4cb;
 
 $p4: #3c3c3b;
 $p5: #505050;
 $p6: #575756;
-$p7: #d9d9d9;
+$p7: #aaa;
+$p8: #d9d9d9;
 
 $black: #000000;
 $white: #ffffff;
 
+@font-face {
+    src: url("../assets/fonts/Helvetica.ttf");
+    font-family: 'Helvetica', sans-serif;
+}
+
 $font1: 'Montserrat', sans-serif;
-$font2: 'Roboto', sans-serif;
-$font3: 'DM Serif Display', serif;
+$font2: 'Helvetica', sans-serif;
+$font3: 'Roboto', sans-serif;
+$font4: 'DM Serif Display', serif;

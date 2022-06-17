@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,164 +16,201 @@
     <meta name="copyright" content="María Ana Brusco" />
 
     <!-- GOOGLE ICONS -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet" />
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./styles/styles.css" />
 
     <!-- PAGE TITLE -->
     <title>BRUSCO ESTUDIO ®</title>
-  </head>
+</head>
 
-  <body>
-    <nav></nav>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <h1 class="logo">LOGO</h1>
 
-    <main></main>
+            <input type="checkbox">
+
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+
+            <ul class="menu-items">
+                <li><a>INICIO</a></li>
+                <li><a>SERVICIOS</a></li>
+                <li><a>EL ESTUDIO</a></li>
+                <li><a>PROYECTOS</a></li>
+                <li><a>CONTACTO</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="height: 80vh;"></main>
 
     <footer>
-      <div class="footer">
-        <div class="footer--top">
-          <div class="footer--top__left">
-            <span>contactanos</span>
-            <div class="emails">
-              <a href="mailto:mariana@bruscoestudio.com.ar">
-                mariana@bruscoestudio.com.ar
-              </a>
-              <br />
-              <a href="mailto:hola@bruscoestudio.com.ar">
-                hola@bruscoestudio.com.ar
-              </a>
+        <div class="footer">
+            <div class="footer--top">
+                <div class="footer--top__left">
+                    <span>contactanos</span>
+
+                    <div class="emails">
+                        <a href="mailto:mariana@bruscoestudio.com.ar">
+                            mariana@bruscoestudio.com.ar
+                        </a>
+                        <br />
+                        <a href="mailto:hola@bruscoestudio.com.ar">
+                            hola@bruscoestudio.com.ar
+                        </a>
+                    </div>
+
+                    <div class="social">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+
+                <div class="footer--top__right">
+                    <div class="map--site">
+                        <div>
+                            <div class="map--site__header">
+                                <a href="#">INICIO</a>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    <a href="#">Servicios</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Proyectos</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">El Estudio</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="map--site__header">
+                                <a href="#">SERVICIOS</a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#">Diseño de Packaging y Producto</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Diseño Editorial</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Identidad & Branding</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Marketing Digital</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <div class="map--site__header">
+                                <a href="#">PROYECTOS</a>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    <a href="#">Diseño de Packaging y Producto</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Diseño Editorial</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Identidad & Branding</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Marketing Digital</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <div class="map--site__header">
+                                <a href="#">EL ESTUDIO</a>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    <a href="#">Presentación</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Objetivo</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Clientes que nos eligen</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <div class="map--site__header">
+                                <a href="#">CONTACTO</a>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    <a href="#">Formulario</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Instagram</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Whatsapp</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">LinkedIn</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Pinterest</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="social">
-              <a href="#"></a>
-              <a href="#"></a>
-              <a href="#"></a>
-              <a href="#"></a>
+
+            <div class="footer--bottom">
+                <span>© 2022 brusco estudio</span>
             </div>
-          </div>
-          <div class="footer--top__right">
-            <div class="map--site">
-              <div>
-                <div class="map--site__header">
-                  <a href="#">INICIO</a>
-                </div>
-                <ul>
-                  <li>
-                    <a href="#">Servicios</a>
-                  </li>
-                  <li>
-                    <a href="#">Proyectos</a>
-                  </li>
-                  <li>
-                    <a href="#">El Estudio</a>
-                  </li>
-                  <li>
-                    <a href="#">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <div class="map--site__header">
-                  <a href="#">SERVICIOS</a>
-                </div>
-                <ul>
-                  <li>
-                    <a href="#">Diseño de Packaging y Producto</a>
-                  </li>
-                  <li>
-                    <a href="#">Diseño Editorial</a>
-                  </li>
-                  <li>
-                    <a href="#">Identidad & Branding</a>
-                  </li>
-                  <li>
-                    <a href="#">Marketing Digital</a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <div class="map--site__header">
-                  <a href="#">PROYECTOS</a>
-                </div>
-                <ul>
-                  <li>
-                    <a href="#">Diseño de Packaging y Producto</a>
-                  </li>
-                  <li>
-                    <a href="#">Diseño Editorial</a>
-                  </li>
-                  <li>
-                    <a href="#">Identidad & Branding</a>
-                  </li>
-                  <li>
-                    <a href="#">Marketing Digital</a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <div class="map--site__header">
-                  <a href="#">EL ESTUDIO</a>
-                </div>
-                <ul>
-                  <li>
-                    <a href="#">Presentación</a>
-                  </li>
-                  <li>
-                    <a href="#">Objetivo</a>
-                  </li>
-                  <li>
-                    <a href="#">Clientes que nos eligen</a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <div class="map--site__header">
-                  <a href="#">CONTACTO</a>
-                </div>
-                <ul>
-                  <li>
-                    <a href="#">Formulario</a>
-                  </li>
-                  <li>
-                    <a href="#">Instagram</a>
-                  </li>
-                  <li>
-                    <a href="#">Whatsapp</a>
-                  </li>
-                  <li>
-                    <a href="#">LinkedIn</a>
-                  </li>
-                  <li>
-                    <a href="#">Pinterest</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="footer--bottom">
-          <span>© 2022 brusco estudio</span>
-        </div>
-      </div>
     </footer>
-  </body>
+
+    <script src="js/scroll-smooth.js"></script>
+</body>
+
 </html>
