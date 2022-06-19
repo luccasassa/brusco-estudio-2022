@@ -34,26 +34,33 @@
 
 <body>
     <nav>
-        <input type="checkbox" id="nav__checkbox">
+        <a href="./index.html" class="nav-branding">
+            <img src="./assets/img/logo/BruscoEstudio_Logo_1.svg">
+        </a>
 
-        <label for="nav__checkbox">
-            <span class="material-icons-outlined burger">segment</span>
-            <span class="material-icons-outlined close">close</span>
-        </label>
-        
-        <ul>
-            <li>
-                <a href="./index.html">
-                    <img src="./assets/img/logo/BruscoEstudio_Logo_1.svg" class="logo">
-                </a>
-            </li>
-            
-            <li><a href="#">INICIO</a></li>
-            <li><a href="#">SERVICIOS</a></li>
-            <li><a href="#">PROYECTOS</a></li>
-            <li><a href="#">EL ESTUDIO</a></li>
-            <li><a href="#">CONTACTO</a></li>
+        <ul class="nav-menu">
+            <div class="nav-menu-list">
+                <li class="nav-item"><a href="#" class="nav-link">INICIO</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">SERVICIOS</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">PROYECTOS</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">EL ESTUDIO</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">CONTACTO</a></li>
+            </div>
+
+            <div class="nav-menu-social">
+                <a href="#"><img src="./assets/img/icons/instagram_icon.png" alt="logo instagram"></a>
+                <a href="#"><img src="./assets/img/icons/linkedin_icon.png" alt="logo linkedin"></a>
+                <a href="#"><img src="./assets/img/icons/behance_icon.png" alt="logo behance"></a>
+                <a href="#"><img src="./assets/img/icons/pinterest_icon.png" alt="logo pinterest"></a>
+                <a href="#"><img src="./assets/img/icons/whatsapp_icon.png" alt="logo whatsapp"></a>
+            </div>
         </ul>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </nav>
 
     <main style="height: 80vh;"></main>
@@ -212,6 +219,7 @@
     </footer>
 
     <script src="js/scroll-smooth.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
