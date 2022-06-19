@@ -75,11 +75,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  z-index: 9;
 }
 
 .nav-branding img {
   width: 200px;
+  z-index: 11;
 }
 
 nav li {
@@ -97,7 +97,6 @@ a {
   flex-direction: row;
   font-family: "Helvetica", sans-serif;
   gap: 20px;
-  z-index: 0;
 }
 
 .nav-menu-social {
@@ -386,15 +385,22 @@ body {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .nav-branding img {
+    z-index: 11;
+  }
+
   /* CHAU */
   .nav-menu {
     position: fixed;
     left: 100%;
-    top: 5rem;
-    height: 90%;
+    top: 0;
+    height: 100%;
+    z-index: 9;
     width: 100%;
     gap: 0;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #ffffff;
     /* background-color: #fcfcfc; */
     transition: 0.5s ease;
@@ -406,30 +412,29 @@ body {
     transition: 0.7s ease;
   }
 
-  /*     .nav-menu.active::before {
-          box-shadow: -20px 0 20px -20px rgba(0,0,0,0.56) inset;
-          content: " ";
-          height: 100%;
-          left: -20px;
-          position: absolute;
-          top: 0;
-          width: 20px;
-      } */
+  .nav-menu.active::before {
+    box-shadow: -20px 0 20px -20px rgba(0, 0, 0, 0.56) inset;
+    content: " ";
+    height: 100%;
+    left: -20px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+  }
+
   .nav-menu-list {
-    padding-top: 100px;
+    margin: 100px 20px 0 0;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    text-align: center;
+    text-align: right;
+    gap: 20px;
   }
 
   .nav-menu-social {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin: 0 0 20px 0;
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 1rem;
+    justify-content: center;
+    gap: 20px;
   }
 
   .nav-menu-social img {
