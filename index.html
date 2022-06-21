@@ -46,9 +46,7 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="./styles/styles.css" />
 
-    <!-- PAGE TITLE -->
-    <title>BRUSCO ESTUDIO ®</title>
-
+    <!--SWIPER CDN-->
     <link
       href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css"
       rel="stylesheet"
@@ -56,12 +54,11 @@
     />
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
+
+    <!-- PAGE TITLE -->
+    <title>BRUSCO ESTUDIO ®</title>
   </head>
 
   <body>
@@ -526,6 +523,9 @@
         </div>
       </div>
     </footer>
+
+    <!--SCRIPT-->
+    <!--SWIPER-->
     <script
       src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js"
       crossorigin="anonymous"
@@ -533,29 +533,17 @@
     ></script>
     <script type="module">
       import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
-
-      //const swiper = new Swiper(...)
       var swiper = new Swiper('.mySwiper', {
         slidesPerView: 8,
-        //pauseOnMouseEnter,
-        //spaceBetween: 30,
         loop: true,
         autoplay: {
           pauseOnMouseEnter: true,
           disableOnInteraction: false,
           delay: 800,
         },
-        /*
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        */
       })
     </script>
-
-    <!--script>
-    </script-->
+    <!--SCROLL-->
     <script src="js/scroll-smooth.js"></script>
   </body>
 </html>
