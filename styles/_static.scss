@@ -19,6 +19,7 @@
 //---------------------------------------------------NAVBAR
 
 nav {
+  z-index: 100;
   background-color: $white;
   position: sticky;
   top: 0;
@@ -124,10 +125,8 @@ footer {
     justify-content: space-between;
 
     a {
-      width: 30px;
-      height: 30px;
-      border-radius: 100%;
-      color: $p8;
+      width: 40px;
+      height: 40px;
       display: flex;
     }
     svg {

@@ -10,24 +10,19 @@
 //---------------------------------------------------HERO
 .hero {
   display: flex;
-  background-color: $p1;
+  background-color: $p8;
   width: 100%;
   height: 90vh;
-  background-image: url('../assets/img/banners/Banner_Muchomasquedisenio.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  //filter: blur(8px);
-  //-webkit-filter: blur(8px);
 }
 .hero__right {
+  background-color: $p7;
   width: 41.66%;
   height: 100%;
-  background-color: rgba($p1, 0.5);
-  //background-color: rgba(80, 80, 80, 0.5);
   margin-right: 3.33%;
   margin-left: auto;
-  //backdrop-filter: blur(800px);
 }
 .hero__right--textArea {
   width: 100%;
@@ -39,8 +34,7 @@
     //margin-top: auto;
     margin: auto auto 0 auto;
     .t1 {
-      ////////////////////////////////////////////
-      font-family: 'Helvetica';
+      font-family: $font2;
       font-style: normal;
       font-weight: 200;
       font-size: 60.399px;
@@ -48,7 +42,7 @@
       text-transform: uppercase;
     }
     .t2 {
-      font-family: 'DM Serif Display';
+      font-family: $font4;
       font-style: normal;
       font-weight: 400;
       font-size: 90px;
@@ -58,7 +52,7 @@
     .t3 {
       margin: auto;
       width: fit-content;
-      font-family: 'Helvetica';
+      font-family: $font2;
       font-style: normal;
       font-weight: 700;
       font-size: 23.5066px;
@@ -76,7 +70,7 @@
   }
   button {
     margin: auto;
-    font-family: 'Helvetica';
+    font-family: $font2;
     font-style: normal;
     font-weight: 400;
     font-size: 15.2836px;
@@ -88,23 +82,36 @@
     background-color: rgba(0, 0, 0, 0);
   }
 }
+
 //---------------------------------------------------SERVICIOS
 .servicios {
   display: flex;
   background-color: $p1;
   width: 100%;
   height: 90vh;
-  background-image: url('../assets/img/banners/Banner_Muchomasquedisenio.jpg');
+  background-color: $p8;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  //filter: blur(8px);
-  //-webkit-filter: blur(8px);
 }
+
+//---------------------------------------------------PROYECTOS
+.proyectos {
+  display: flex;
+  background-color: $p1;
+  width: 100%;
+  height: 90vh;
+  background-color: $p8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//---------------------------------------------------LEFT
 .left {
   width: 41.66%;
   height: 100%;
-  background-color: rgba($p1, 0.5);
+  background-color: $p7;
   margin-left: 3.33%;
   margin-right: auto;
 }
@@ -115,11 +122,10 @@
   .left--text {
     width: fit-content;
     height: fit-content;
-    //margin-top: auto;
     margin: auto auto 5% auto;
     .left--title {
       .t1 {
-        font-family: 'DM Serif Display';
+        font-family: $font4;
         font-style: normal;
         font-weight: 400;
         font-size: 90px;
@@ -131,7 +137,7 @@
       margin: auto;
       .t2 {
         width: fit-content;
-        font-family: 'DM Serif Display';
+        font-family: $font4;
         font-style: normal;
         font-weight: 400;
         font-size: 35.2277px;
@@ -150,7 +156,7 @@
   }
   button {
     margin: auto 5% auto auto;
-    font-family: 'Helvetica';
+    font-family: $font2;
     font-style: normal;
     font-weight: 400;
     font-size: 15.2836px;
@@ -162,21 +168,12 @@
     background-color: rgba(0, 0, 0, 0);
   }
 }
-//---------------------------------------------------PROYECTOS
-.proyectos {
-  display: flex;
-  background-color: $p1;
-  width: 100%;
-  height: 90vh;
-  background-image: url('../assets/img/banners/Banner_Muchomasquedisenio.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
+//---------------------------------------------------RIGHT
 .right {
   width: 41.66%;
   height: 100%;
-  background-color: rgba($p1, 0.5);
+  background-color: $p7;
   margin-right: 3.33%;
   margin-left: auto;
 }
@@ -191,7 +188,7 @@
     margin: auto auto 5% auto;
     .right--title {
       .t1 {
-        font-family: 'DM Serif Display';
+        font-family: $font4;
         font-style: normal;
         font-weight: 400;
         font-size: 90px;
@@ -203,7 +200,7 @@
       margin: auto;
       .t2 {
         width: fit-content;
-        font-family: 'DM Serif Display';
+        font-family: $font4;
         font-style: normal;
         font-weight: 400;
         font-size: 35.2277px;
@@ -222,7 +219,7 @@
   }
   button {
     margin: auto 5% auto auto;
-    font-family: 'Helvetica';
+    font-family: $font2;
     font-style: normal;
     font-weight: 400;
     font-size: 15.2836px;
@@ -235,11 +232,13 @@
   }
 }
 
+//---------------------------------------------------INSTAGRAM SLIDERS
 .instagram__slider {
   width: 100%;
   height: 167px;
   margin: 30px 0 30px 0;
   position: relative;
+  background-color: $p8;
   .swiper {
     position: absolute;
     width: 100%;
@@ -247,15 +246,11 @@
   }
   .swiper-slide {
     width: 167px;
+    height: 167px;
     text-align: center;
+    justify-content: center;
     font-size: 18px;
-    background-color: $p1;
-  }
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-color: $p8;
   }
 }
 
@@ -270,57 +265,30 @@
     a {
       display: flex;
       svg {
-        filter: invert(20%) sepia(10%) saturate(85%) hue-rotate(22deg)
-          brightness(100%) contrast(89%);
         margin: auto;
-        max-width: 65px;
-        max-height: 65px;
       }
     }
   }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
-  .hero {
-    display: flex;
-    background-color: $p1;
-    width: 100%;
-    height: 90vh;
-  }
   .hero__right {
     width: 100%;
-    height: 100%;
-    background-color: $p1;
     margin: 0;
   }
   .hero__right--textArea {
-    width: 100%;
-    height: 60%;
-    display: flex;
     .hero__right--text {
-      width: fit-content;
-      height: fit-content;
       margin: auto;
       .t1 {
-        font-family: $font2;
-        font-style: normal;
-        font-weight: 400;
         font-size: 34.6789px;
         line-height: 43px;
       }
       .t2 {
-        font-family: 'DM Serif Display';
-        font-style: normal;
-        font-weight: 400;
         font-size: 51.6746px;
         line-height: 71px;
         margin-top: -20px;
       }
       .t3 {
-        margin: auto;
-        width: fit-content;
-        font-family: 'Helvetica';
-        font-style: normal;
         font-weight: 700;
         font-size: 13.4966px;
         line-height: 16px;
@@ -328,52 +296,32 @@
     }
   }
   .hero__right--cta {
-    width: 100%;
-    height: 40%;
-    display: flex;
-    a {
-      text-decoration: none;
-      color: $black;
-    }
     button {
-      margin: auto;
-      font-family: 'Helvetica';
-      font-style: normal;
-      font-weight: 400;
       font-size: 15.2836px;
       line-height: 18px;
-      text-transform: uppercase;
-      border: 2px solid $black;
       height: 35px;
       width: 105px;
       background-color: rgba(0, 0, 0, 0);
     }
   }
+
   .left {
     width: 100%;
     height: 60%;
-    background-color: $p1;
+    background-color: $p7;
     margin: auto 0 0 0;
   }
   .left--textArea {
-    width: 100%;
     height: 85%;
-
     .left--text {
       .left--title {
         .t1 {
-          font-family: 'DM Serif Display';
-          font-style: normal;
-          font-weight: 400;
           font-size: 51.532px;
           line-height: 71px;
         }
       }
       .left--texts {
         .t2 {
-          font-family: 'DM Serif Display';
-          font-style: normal;
-          font-weight: 400;
           font-size: 20.1706px;
           line-height: 28px;
         }
@@ -382,11 +330,6 @@
   }
   .left--cta {
     height: 15%;
-    display: flex;
-    a {
-      text-decoration: none;
-      color: $black;
-    }
     button {
       font-size: 8.77px;
       line-height: 10px;
@@ -394,33 +337,24 @@
       width: 59.71px;
     }
   }
+
   .right {
     width: 100%;
     height: 60%;
-    background-color: $p1;
+    background-color: $p7;
     margin: auto 0 0 0;
   }
   .right--textArea {
-    width: 100%;
     height: 85%;
-    display: flex;
     .right--text {
-      width: fit-content;
-      height: fit-content;
       .right--title {
         .t1 {
-          font-family: 'DM Serif Display';
-          font-style: normal;
-          font-weight: 400;
           font-size: 51.532px;
           line-height: 71px;
         }
       }
       .right--texts {
         .t2 {
-          font-family: 'DM Serif Display';
-          font-style: normal;
-          font-weight: 400;
           font-size: 20.1706px;
           line-height: 28px;
         }
@@ -459,11 +393,11 @@
 
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
   .hero {
-    background-color: $p1;
+    background-color: $p8;
   }
   .hero__right {
     width: 50%;
-    background-color: $p1;
+    background-color: $p7;
   }
   .hero__right--textArea {
     .hero__right--text {
@@ -482,7 +416,7 @@
 
   .left {
     width: 50%;
-    background-color: $p1;
+    background-color: $p7;
   }
   .left--textArea {
     .left--text {
@@ -501,7 +435,7 @@
 
   .right {
     width: 50%;
-    background-color: $p1;
+    background-color: $p7;
   }
   .right--textArea {
     .right--text {
