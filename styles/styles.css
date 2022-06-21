@@ -42,8 +42,16 @@
   font-family: "Helvetica", sans-serif;
 }
 @font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
+}
+@font-face {
   src: url("../assets/fonts/Helvetica.ttf");
   font-family: "Helvetica", sans-serif;
+}
+@font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
 }
 *,
 *::after,
@@ -71,7 +79,8 @@ nav {
   border-bottom: 1px solid #e9e9e9;
   font-family: "Helvetica", sans-serif;
 }
-nav input, nav label {
+nav input,
+nav label {
   display: none;
   transition: 0.5s;
 }
@@ -133,7 +142,7 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -142,24 +151,28 @@ footer {
   margin-top: -20px;
 }
 .footer--top__left .emails a {
-  font-family: "Helvetica Light";
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 17.8958px;
   line-height: 22px;
   color: #ffffff;
 }
 .footer--top__left .social {
   display: flex;
-  width: 45%;
+  width: 65%;
   justify-content: space-between;
 }
 .footer--top__left .social a {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
-  background-color: #d9d9d9;
+  color: #d9d9d9;
+  display: flex;
+}
+.footer--top__left .social svg {
+  margin: auto;
 }
 
 .footer--top__right {
@@ -187,7 +200,7 @@ footer {
 .footer--top__right .map--site div .map--site__header a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 27px;
@@ -202,9 +215,9 @@ footer {
 .footer--top__right .map--site div ul a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -217,9 +230,9 @@ footer {
 .footer--bottom span {
   margin-top: 1.3%;
   margin-left: 1%;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -231,8 +244,16 @@ footer {
   font-family: "Helvetica", sans-serif;
 }
 @font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
+}
+@font-face {
   src: url("../assets/fonts/Helvetica.ttf");
   font-family: "Helvetica", sans-serif;
+}
+@font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
 }
 *,
 *::after,
@@ -260,7 +281,8 @@ nav {
   border-bottom: 1px solid #e9e9e9;
   font-family: "Helvetica", sans-serif;
 }
-nav input, nav label {
+nav input,
+nav label {
   display: none;
   transition: 0.5s;
 }
@@ -322,7 +344,7 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -331,24 +353,28 @@ footer {
   margin-top: -20px;
 }
 .footer--top__left .emails a {
-  font-family: "Helvetica Light";
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 17.8958px;
   line-height: 22px;
   color: #ffffff;
 }
 .footer--top__left .social {
   display: flex;
-  width: 45%;
+  width: 65%;
   justify-content: space-between;
 }
 .footer--top__left .social a {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
-  background-color: #d9d9d9;
+  color: #d9d9d9;
+  display: flex;
+}
+.footer--top__left .social svg {
+  margin: auto;
 }
 
 .footer--top__right {
@@ -376,7 +402,7 @@ footer {
 .footer--top__right .map--site div .map--site__header a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 27px;
@@ -391,9 +417,9 @@ footer {
 .footer--top__right .map--site div ul a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -406,22 +432,551 @@ footer {
 .footer--bottom span {
   margin-top: 1.3%;
   margin-left: 1%;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  background-color: #ffd73a;
+  width: 100%;
+  height: 90vh;
+  background-image: url("../assets/img/banners/Banner_Muchomasquedisenio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__right {
+  width: 41.66%;
+  height: 100%;
+  background-color: rgba(255, 215, 58, 0.5);
+  margin-right: 3.33%;
+  margin-left: auto;
+}
+
+.hero__right--textArea {
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+.hero__right--textArea .hero__right--text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto auto 0 auto;
+}
+.hero__right--textArea .hero__right--text .t1 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 60.399px;
+  line-height: 74px;
+  text-transform: uppercase;
+}
+.hero__right--textArea .hero__right--text .t2 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 123px;
+  margin-top: -30px;
+}
+.hero__right--textArea .hero__right--text .t3 {
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.5066px;
+  line-height: 27px;
+}
+
+.hero__right--cta {
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+.hero__right--cta a {
+  text-decoration: none;
+  color: #000000;
+}
+.hero__right--cta button {
+  margin: auto;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.2836px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+  height: 35px;
+  width: 105px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.servicios {
+  display: flex;
+  background-color: #ffd73a;
+  width: 100%;
+  height: 90vh;
+  background-image: url("../assets/img/banners/Banner_Muchomasquedisenio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left {
+  width: 41.66%;
+  height: 100%;
+  background-color: rgba(255, 215, 58, 0.5);
+  margin-left: 3.33%;
+  margin-right: auto;
+}
+
+.left--textArea {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.left--textArea .left--text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto auto 5% auto;
+}
+.left--textArea .left--text .left--title .t1 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 123px;
+}
+.left--textArea .left--text .left--texts {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.left--textArea .left--text .left--texts .t2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35.2277px;
+  line-height: 48px;
+}
+
+.left--cta {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+.left--cta a {
+  text-decoration: none;
+  color: #000000;
+}
+.left--cta button {
+  margin: auto 5% auto auto;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.2836px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+  height: 35px;
+  width: 105px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.proyectos {
+  display: flex;
+  background-color: #ffd73a;
+  width: 100%;
+  height: 90vh;
+  background-image: url("../assets/img/banners/Banner_Muchomasquedisenio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right {
+  width: 41.66%;
+  height: 100%;
+  background-color: rgba(255, 215, 58, 0.5);
+  margin-right: 3.33%;
+  margin-left: auto;
+}
+
+.right--textArea {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.right--textArea .right--text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto auto 5% auto;
+}
+.right--textArea .right--text .right--title .t1 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 123px;
+}
+.right--textArea .right--text .right--texts {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.right--textArea .right--text .right--texts .t2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35.2277px;
+  line-height: 48px;
+}
+
+.right--cta {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+.right--cta a {
+  text-decoration: none;
+  color: #000000;
+}
+.right--cta button {
+  margin: auto 5% auto auto;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.2836px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+  height: 35px;
+  width: 105px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.instagram__slider {
+  width: 100%;
+  height: 167px;
+  margin: 30px 0 30px 0;
+  position: relative;
+}
+.instagram__slider .swiper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.instagram__slider .swiper-slide {
+  width: 167px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #ffd73a;
+}
+.instagram__slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.socialmedia {
+  margin: 0 0 2.5% 0;
+  width: 100%;
+}
+.socialmedia .socials {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.socialmedia .socials a {
+  display: flex;
+}
+.socialmedia .socials a svg {
+  filter: invert(20%) sepia(10%) saturate(85%) hue-rotate(22deg) brightness(100%) contrast(89%);
+  margin: auto;
+  max-width: 65px;
+  max-height: 65px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 830px) {
+  .hero {
+    display: flex;
+    background-color: #ffd73a;
+    width: 100%;
+    height: 90vh;
+  }
+
+  .hero__right {
+    width: 100%;
+    height: 100%;
+    background-color: #ffd73a;
+    margin: 0;
+  }
+
+  .hero__right--textArea {
+    width: 100%;
+    height: 60%;
+    display: flex;
+  }
+  .hero__right--textArea .hero__right--text {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: auto;
+  }
+  .hero__right--textArea .hero__right--text .t1 {
+    font-family: "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.6789px;
+    line-height: 43px;
+  }
+  .hero__right--textArea .hero__right--text .t2 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51.6746px;
+    line-height: 71px;
+    margin-top: -20px;
+  }
+  .hero__right--textArea .hero__right--text .t3 {
+    margin: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.4966px;
+    line-height: 16px;
+  }
+
+  .hero__right--cta {
+    width: 100%;
+    height: 40%;
+    display: flex;
+  }
+  .hero__right--cta a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .hero__right--cta button {
+    margin: auto;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.2836px;
+    line-height: 18px;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    height: 35px;
+    width: 105px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .left {
+    width: 100%;
+    height: 60%;
+    background-color: #ffd73a;
+    margin: auto 0 0 0;
+  }
+
+  .left--textArea {
+    width: 100%;
+    height: 85%;
+  }
+  .left--textArea .left--text .left--title .t1 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51.532px;
+    line-height: 71px;
+  }
+  .left--textArea .left--text .left--texts .t2 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1706px;
+    line-height: 28px;
+  }
+
+  .left--cta {
+    height: 15%;
+    display: flex;
+  }
+  .left--cta a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .left--cta button {
+    font-size: 8.77px;
+    line-height: 10px;
+    height: 19.52px;
+    width: 59.71px;
+  }
+
+  .right {
+    width: 100%;
+    height: 60%;
+    background-color: #ffd73a;
+    margin: auto 0 0 0;
+  }
+
+  .right--textArea {
+    width: 100%;
+    height: 85%;
+    display: flex;
+  }
+  .right--textArea .right--text {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .right--textArea .right--text .right--title .t1 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51.532px;
+    line-height: 71px;
+  }
+  .right--textArea .right--text .right--texts .t2 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1706px;
+    line-height: 28px;
+  }
+
+  .right--cta {
+    width: 100%;
+    height: 15%;
+  }
+  .right--cta button {
+    font-size: 8.77px;
+    line-height: 10px;
+    height: 19.52px;
+    width: 59.71px;
+  }
+
+  .instagram__slider {
+    display: none;
+  }
+
+  .socialmedia {
+    z-index: -10;
+    margin: 6.5% 0 6.5% 0;
+  }
+  .socialmedia .socials {
+    width: 80%;
+  }
+  .socialmedia .socials a svg {
+    max-width: 30px;
+    max-height: 30px;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .hero {
+    background-color: #ffd73a;
+  }
+
+  .hero__right {
+    width: 50%;
+    background-color: #ffd73a;
+  }
+
+  .hero__right--textArea .hero__right--text .t1 {
+    font-size: 50.399px;
+  }
+  .hero__right--textArea .hero__right--text .t2 {
+    font-size: 70px;
+  }
+  .hero__right--textArea .hero__right--text .t3 {
+    font-size: 17.5066px;
+    margin-top: -20px;
+  }
+
+  .left {
+    width: 50%;
+    background-color: #ffd73a;
+  }
+
+  .left--textArea .left--text .left--title .t1 {
+    font-size: 70px;
+  }
+  .left--textArea .left--text .left--texts .t2 {
+    font-size: 27px;
+  }
+
+  .right {
+    width: 50%;
+    background-color: #ffd73a;
+  }
+
+  .right--textArea .right--text .right--title .t1 {
+    font-size: 80px;
+  }
+  .right--textArea .right--text .right--texts .t2 {
+    font-size: 25px;
+  }
+}
 @font-face {
   src: url("../assets/fonts/Helvetica.ttf");
   font-family: "Helvetica", sans-serif;
 }
 @font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
+}
+@font-face {
   src: url("../assets/fonts/Helvetica.ttf");
   font-family: "Helvetica", sans-serif;
+}
+@font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
 }
 *,
 *::after,
@@ -449,7 +1004,8 @@ nav {
   border-bottom: 1px solid #e9e9e9;
   font-family: "Helvetica", sans-serif;
 }
-nav input, nav label {
+nav input,
+nav label {
   display: none;
   transition: 0.5s;
 }
@@ -511,7 +1067,7 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -520,24 +1076,28 @@ footer {
   margin-top: -20px;
 }
 .footer--top__left .emails a {
-  font-family: "Helvetica Light";
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 17.8958px;
   line-height: 22px;
   color: #ffffff;
 }
 .footer--top__left .social {
   display: flex;
-  width: 45%;
+  width: 65%;
   justify-content: space-between;
 }
 .footer--top__left .social a {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
-  background-color: #d9d9d9;
+  color: #d9d9d9;
+  display: flex;
+}
+.footer--top__left .social svg {
+  margin: auto;
 }
 
 .footer--top__right {
@@ -565,7 +1125,7 @@ footer {
 .footer--top__right .map--site div .map--site__header a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 27px;
@@ -580,9 +1140,9 @@ footer {
 .footer--top__right .map--site div ul a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -595,9 +1155,9 @@ footer {
 .footer--bottom span {
   margin-top: 1.3%;
   margin-left: 1%;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -609,8 +1169,16 @@ footer {
   font-family: "Helvetica", sans-serif;
 }
 @font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
+}
+@font-face {
   src: url("../assets/fonts/Helvetica.ttf");
   font-family: "Helvetica", sans-serif;
+}
+@font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
 }
 *,
 *::after,
@@ -638,7 +1206,8 @@ nav {
   border-bottom: 1px solid #e9e9e9;
   font-family: "Helvetica", sans-serif;
 }
-nav input, nav label {
+nav input,
+nav label {
   display: none;
   transition: 0.5s;
 }
@@ -700,7 +1269,7 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -709,24 +1278,28 @@ footer {
   margin-top: -20px;
 }
 .footer--top__left .emails a {
-  font-family: "Helvetica Light";
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 17.8958px;
   line-height: 22px;
   color: #ffffff;
 }
 .footer--top__left .social {
   display: flex;
-  width: 45%;
+  width: 65%;
   justify-content: space-between;
 }
 .footer--top__left .social a {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
-  background-color: #d9d9d9;
+  color: #d9d9d9;
+  display: flex;
+}
+.footer--top__left .social svg {
+  margin: auto;
 }
 
 .footer--top__right {
@@ -754,7 +1327,7 @@ footer {
 .footer--top__right .map--site div .map--site__header a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 27px;
@@ -769,9 +1342,9 @@ footer {
 .footer--top__right .map--site div ul a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -784,9 +1357,9 @@ footer {
 .footer--bottom span {
   margin-top: 1.3%;
   margin-left: 1%;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -798,8 +1371,16 @@ footer {
   font-family: "Helvetica", sans-serif;
 }
 @font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
+}
+@font-face {
   src: url("../assets/fonts/Helvetica.ttf");
   font-family: "Helvetica", sans-serif;
+}
+@font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
 }
 *,
 *::after,
@@ -827,7 +1408,8 @@ nav {
   border-bottom: 1px solid #e9e9e9;
   font-family: "Helvetica", sans-serif;
 }
-nav input, nav label {
+nav input,
+nav label {
   display: none;
   transition: 0.5s;
 }
@@ -889,7 +1471,7 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -898,24 +1480,28 @@ footer {
   margin-top: -20px;
 }
 .footer--top__left .emails a {
-  font-family: "Helvetica Light";
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 17.8958px;
   line-height: 22px;
   color: #ffffff;
 }
 .footer--top__left .social {
   display: flex;
-  width: 45%;
+  width: 65%;
   justify-content: space-between;
 }
 .footer--top__left .social a {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
-  background-color: #d9d9d9;
+  color: #d9d9d9;
+  display: flex;
+}
+.footer--top__left .social svg {
+  margin: auto;
 }
 
 .footer--top__right {
@@ -943,7 +1529,7 @@ footer {
 .footer--top__right .map--site div .map--site__header a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 27px;
@@ -958,9 +1544,9 @@ footer {
 .footer--top__right .map--site div ul a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -973,9 +1559,9 @@ footer {
 .footer--bottom span {
   margin-top: 1.3%;
   margin-left: 1%;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -987,8 +1573,16 @@ footer {
   font-family: "Helvetica", sans-serif;
 }
 @font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
+}
+@font-face {
   src: url("../assets/fonts/Helvetica.ttf");
   font-family: "Helvetica", sans-serif;
+}
+@font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
 }
 *,
 *::after,
@@ -1016,7 +1610,8 @@ nav {
   border-bottom: 1px solid #e9e9e9;
   font-family: "Helvetica", sans-serif;
 }
-nav input, nav label {
+nav input,
+nav label {
   display: none;
   transition: 0.5s;
 }
@@ -1078,7 +1673,7 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -1087,24 +1682,28 @@ footer {
   margin-top: -20px;
 }
 .footer--top__left .emails a {
-  font-family: "Helvetica Light";
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 17.8958px;
   line-height: 22px;
   color: #ffffff;
 }
 .footer--top__left .social {
   display: flex;
-  width: 45%;
+  width: 65%;
   justify-content: space-between;
 }
 .footer--top__left .social a {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
-  background-color: #d9d9d9;
+  color: #d9d9d9;
+  display: flex;
+}
+.footer--top__left .social svg {
+  margin: auto;
 }
 
 .footer--top__right {
@@ -1132,7 +1731,7 @@ footer {
 .footer--top__right .map--site div .map--site__header a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 27px;
@@ -1147,9 +1746,9 @@ footer {
 .footer--top__right .map--site div ul a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -1162,9 +1761,9 @@ footer {
 .footer--bottom span {
   margin-top: 1.3%;
   margin-left: 1%;
-  font-family: Helvetica Light;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
@@ -1174,6 +1773,10 @@ footer {
 @font-face {
   src: url("../assets/fonts/Helvetica.ttf");
   font-family: "Helvetica", sans-serif;
+}
+@font-face {
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
 }
 @media only screen and (min-width: 0px) and (max-width: 830px) {
   nav label {
