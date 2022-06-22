@@ -29,3 +29,20 @@ $font2: 'Helvetica', sans-serif;
 $font3: 'Roboto', sans-serif;
 $font4: 'DM Serif Display', serif;
 $font5: 'HelveticaLt', serif;
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 4.9em;
+}

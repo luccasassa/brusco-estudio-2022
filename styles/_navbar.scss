@@ -1,0 +1,63 @@
+@import 'variables';
+
+//---------------------------------------------------NAVBAR
+
+nav {
+    position: sticky;
+    top: 0;
+    // height: 5rem;
+    padding: 5px 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: $white;
+    z-index: 99;
+}
+
+.nav-branding img {
+    width: 200px;
+    z-index: 11;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+}
+
+/**********************************/
+
+.nav-menu-list {
+    display: flex;
+    flex-direction: row;
+    font-family: $font2;
+    gap: 20px;
+}
+
+.nav-menu-social {
+    display: none;
+}
+
+.nav-item {
+    margin: 16px 0;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: $p1;
+}
+
+/**********************************/
+
+.hamburger {
+    display: none;
+}
