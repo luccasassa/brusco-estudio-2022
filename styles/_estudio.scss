@@ -5,11 +5,9 @@
   width: 100%;
   background-color: $p7;
   display: flex;
-
   .estudio__hero--texts {
     margin: auto;
     width: fit-content;
-
     //background-color: antiquewhite;
     h1 {
       font-family: $font4;
@@ -20,17 +18,14 @@
       margin-bottom: -15px;
     }
   }
-
   .estudio__hero--texts--text {
     width: 100%;
     display: flex;
-
     div {
       margin-left: auto;
       width: fit-content;
       height: fit-content;
     }
-
     p {
       font-family: $font4;
       font-style: normal;
@@ -46,17 +41,14 @@
   width: 100%;
   height: 50vh;
   display: flex;
-
   .estudio__presentation--container {
     width: 90%;
     height: fit-content;
     margin: auto;
     display: flex;
-
     .estudio__presentation--img {
       width: 30.35%;
       display: flex;
-
       img {
         width: 95%;
         height: 95%;
@@ -64,11 +56,9 @@
         margin: auto;
       }
     }
-
     .estudio__presentation--text {
       width: 64.65%;
       margin: auto;
-
       h2 {
         font-family: $font4;
         font-style: normal;
@@ -79,7 +69,6 @@
         width: fit-content;
         padding: 0 40px 0 0;
       }
-
       p {
         font-family: $font2;
         font-style: normal;
@@ -96,13 +85,11 @@
   width: 100%;
   margin: 85px 0 85px 0;
   height: fit-content;
-
   div {
     width: 90%;
     height: fit-content;
     margin: auto;
     display: flex;
-
     p {
       font-family: $font4;
       font-style: normal;
@@ -110,7 +97,6 @@
       font-size: 36.6813px;
       line-height: 50px;
       text-align: center;
-
       span {
         background-color: $p8;
       }
@@ -121,11 +107,9 @@
 .estudio__clients {
   width: 100%;
   height: fit-content;
-
   .estudio__clients--container {
     margin: auto;
     width: 90%;
-
     h3 {
       font-family: $font4;
       font-style: normal;
@@ -134,19 +118,16 @@
       line-height: 76px;
       margin-bottom: 40px;
     }
-
     .slider {
       width: 100%;
       height: 510px;
       background-color: $p7;
       margin-bottom: 90px;
-
       .swiper {
         z-index: 1;
         width: 100%;
         height: 100%;
       }
-
       .swiper-slide {
         text-align: center;
         font-size: 18px;
@@ -154,19 +135,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
         .swiper-slide--info {
           margin: auto;
           background-color: $p8;
           width: 515px;
           height: 290px;
-
           .client__testimony {
             width: 100%;
             background-color: $p7;
             height: 75%;
             display: flex;
-
             p {
               width: 70%;
               margin: auto;
@@ -178,17 +156,14 @@
               text-align: center;
             }
           }
-
           .client__info {
             width: 100%;
             height: 25%;
             display: flex;
-
             div {
               width: 90%;
               height: fit-content;
               margin: auto;
-
               p {
                 text-align: start;
                 font-family: $font2;
@@ -211,20 +186,17 @@
     height: 167px;
     margin: 30px 0 30px 0;
     position: relative;
-
     .swiper {
       position: absolute;
       width: 100%;
       height: 100%;
     }
-
     .swiper-slide {
       width: 167px;
       text-align: center;
       font-size: 18px;
       background-color: $p8;
     }
-
     .swiper-slide img {
       display: block;
       width: 100%;
@@ -242,7 +214,6 @@
         line-height: 71px;
       }
     }
-
     .estudio__hero--texts--text {
       p {
         font-size: 20.1706px;
@@ -254,32 +225,26 @@
 
   .estudio__presentation {
     height: 70vh;
-
     .estudio__presentation--container {
       height: 100%;
       flex-direction: column-reverse;
-
       .estudio__presentation--img {
         width: 90%;
         height: 50%;
         margin: auto;
-
         img {
           width: 90%;
           height: 90%;
           margin: 0 auto auto auto;
         }
       }
-
       .estudio__presentation--text {
         width: 90%;
         margin: auto auto 0 auto;
-
         h2 {
           font-size: 26.2974px;
           line-height: 36px;
         }
-
         p {
           font-size: 10.84px;
           line-height: 12px;
@@ -304,7 +269,6 @@
     .estudio__clients--container {
       width: 100%;
       height: 70vh;
-
       h3 {
         width: 90%;
         height: 5%;
@@ -313,30 +277,25 @@
         line-height: 36px;
         margin-bottom: 20px;
       }
-
       .slider {
         width: 100%;
         height: 95%;
         background-color: $p7;
-
         .swiper {
           width: 100%;
           height: 100%;
         }
-
         .swiper-slide {
           .swiper-slide--info {
             margin: auto;
             width: 75%;
             height: 40%;
-
             .client__testimony {
               p {
                 font-size: 13.5094px;
                 line-height: 16px;
               }
             }
-
             .client__info {
               div {
                 p {
@@ -358,19 +317,16 @@
       height: 167px;
       margin: 30px 0 30px 0;
       position: relative;
-
       .swiper {
         position: absolute;
         width: 100%;
         height: 100%;
       }
-
       .swiper-slide {
         width: 167px;
         text-align: center;
         font-size: 18px;
       }
-
       .swiper-slide img {
         display: block;
         width: 100%;
@@ -390,7 +346,6 @@
         margin-bottom: -10px;
       }
     }
-
     .estudio__hero--texts--text {
       p {
         font-size: 35px;
@@ -402,32 +357,26 @@
 
   .estudio__presentation {
     height: 50vh;
-
     .estudio__presentation--container {
       height: 100%;
-
       .estudio__presentation--img {
         width: 50%;
         height: 80%;
         margin: auto;
-
         img {
           width: 80%;
           height: 70%;
           margin: auto;
         }
       }
-
       .estudio__presentation--text {
         width: 80%;
         height: fit-content;
         margin: auto;
-
         h2 {
           font-size: 47px;
           line-height: 36px;
         }
-
         p {
           font-size: 15.84px;
           line-height: 20px;
@@ -452,7 +401,6 @@
     .estudio__clients--container {
       width: 100%;
       height: 70vh;
-
       h3 {
         width: 90%;
         height: 5%;
@@ -461,30 +409,25 @@
         line-height: 36px;
         margin-bottom: 20px;
       }
-
       .slider {
         width: 100%;
         height: 95%;
         background-color: $p7;
-
         .swiper {
           width: 100%;
           height: 100%;
         }
-
         .swiper-slide {
           .swiper-slide--info {
             margin: auto;
             width: 75%;
             height: 40%;
-
             .client__testimony {
               p {
                 font-size: 18.5094px;
                 line-height: 22px;
               }
             }
-
             .client__info {
               div {
                 p {
@@ -506,19 +449,16 @@
       height: 167px;
       margin: 30px 0 30px 0;
       position: relative;
-
       .swiper {
         position: absolute;
         width: 100%;
         height: 100%;
       }
-
       .swiper-slide {
         width: 167px;
         text-align: center;
         font-size: 18px;
       }
-
       .swiper-slide img {
         display: block;
         width: 100%;

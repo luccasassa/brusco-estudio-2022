@@ -56,11 +56,14 @@ footer {
     display: flex;
     width: 65%;
     justify-content: space-between;
-    align-items: center;
 
-    svg {
+    a {
       width: 40px;
       height: 40px;
+      display: flex;
+    }
+
+    svg {
       margin: auto;
     }
   }
@@ -71,7 +74,6 @@ footer {
   height: 286px;
   width: 70%;
   display: flex;
-  margin: auto;
 
   .map--site {
     height: auto;
