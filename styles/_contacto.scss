@@ -7,9 +7,8 @@
   background-color: $p7;
   display: flex;
   .contacto__hero--texts {
-    margin: auto;
+    margin: auto auto 3% auto;
     width: fit-content;
-    //background-color: antiquewhite;
     h1 {
       font-family: 'DM Serif Display';
       font-style: normal;
@@ -42,8 +41,7 @@
 .contacto__form {
   width: 90%;
   height: fit-content;
-  margin: auto;
-  margin-bottom: 40px;
+  margin: 60px auto 40px auto;
   h2 {
     font-family: $font4;
     font-style: normal;
@@ -73,13 +71,13 @@
         font-weight: 400;
         font-size: 26.971px;
         line-height: 31px;
-        border: 2px solid black;
+        border: 2px solid $p7;
       }
     }
     .input-textarea {
       width: 100%;
       textarea {
-        border: 2px solid black;
+        border: 2px solid $p7;
         margin-top: 2%;
         width: 98%;
         height: 415px;
@@ -96,7 +94,7 @@
       margin-top: 2%;
       display: flex;
       input {
-        border: 2px solid black;
+        border: 2px solid $p7;
         background-color: white;
         font-family: $font2;
         font-style: normal;
@@ -110,12 +108,33 @@
   }
 }
 
+.contacto-socialmedia {
+  margin-bottom: 30px;
+  width: 100%;
+  .socials {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    a {
+      display: flex;
+      svg {
+        height: 60px;
+        width: 60px;
+        margin: auto;
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 830px) {
   .contacto__hero {
     .contacto__hero--texts {
+      margin: auto;
       h1 {
         font-size: 51.532px;
         line-height: 71px;
+        margin-bottom: 5px;
       }
     }
     .contacto__hero--texts--text {
@@ -177,6 +196,22 @@
       }
     }
   }
+
+  .contacto-socialmedia{
+    .socials{
+      width: 90%;
+      a {
+        width: 25px;
+        height: 25px;
+        svg{
+          width: 25px;
+          height: 25px;
+
+        }
+      }
+    }
+  }
+
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1200px) {

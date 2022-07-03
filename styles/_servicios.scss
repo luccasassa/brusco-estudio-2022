@@ -7,16 +7,18 @@
   background-color: $p7;
   display: flex;
   .servicios__hero--texts {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 3%;
+    height: fit-content;
     width: fit-content;
-    //background-color: antiquewhite;
     h1 {
       font-family: $font4;
       font-style: normal;
       font-weight: 400;
       font-size: 131.01px;
       line-height: 180px;
-      margin-bottom: -15px;
     }
   }
   .servicios__hero--texts--text {
@@ -148,14 +150,12 @@
   display: flex;
   div {
     width: fit-content;
-    height: 80%;
+    height: fit-content;
     margin: auto 0 auto auto;
-    display: flex;
-    flex-direction: column;
   }
   p {
-    margin: auto 0 auto auto;
-    font-family: $font4;
+    margin: 26px 0 26px auto;
+    font-family: $font2;
     font-style: normal;
     font-weight: 400;
     font-size: 22.3277px;
@@ -164,6 +164,12 @@
     width: fit-content;
     padding: 4px 14px 3px 14px;
   }
+}
+.right__labels--mobile{
+  display: none;
+}
+.left__labels--mobile{
+  display: none;
 }
 
 .right__text {
@@ -237,14 +243,12 @@
   display: flex;
   div {
     width: fit-content;
-    height: 80%;
+    height: fit-content;
     margin: auto auto auto 0;
-    display: flex;
-    flex-direction: column;
   }
   p {
-    margin: auto auto auto 0;
-    font-family: $font4;
+    margin: 26px auto 26px 0;
+    font-family: $font2;
     font-style: normal;
     font-weight: 400;
     font-size: 22.3277px;
@@ -258,9 +262,12 @@
 @media only screen and (min-width: 0px) and (max-width: 830px) {
   .servicios__hero {
     .servicios__hero--texts {
+      
+      margin: auto;
       h1 {
         font-size: 51.532px;
         line-height: 71px;
+        margin-bottom: 5px;
       }
     }
     .servicios__hero--texts--text {
@@ -273,7 +280,7 @@
   }
 
   .left__text {
-    height: 50%;
+    height: 75%;
     width: 100%;
     margin: auto 0 0 0;
     .left__texts {
@@ -313,8 +320,26 @@
     display: none;
   }
 
+  .right__labels--mobile{
+    display: block;
+    width: 100%;
+      p {
+        display:inline-flex;
+        margin: 4px;
+        font-family: $font2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.0896px;
+        line-height: 13px;
+        background-color: $p8;
+        width: fit-content;
+        padding: 2px 4px 2px 4px;
+      }
+    }
+
+
   .right__text {
-    height: 50%;
+    height: 75%;
     width: 100%;
     margin: auto 0 0 0;
     .right__texts {
@@ -353,11 +378,28 @@
   .left__labels {
     display: none;
   }
+  .left__labels--mobile{
+    display: block;
+    width: 100%;
+      p {
+        display:inline-flex;
+        margin: 4px;
+        font-family: $font2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.0896px;
+        line-height: 13px;
+        background-color: $p8;
+        width: fit-content;
+        padding: 2px 4px 2px 4px;
+      }
+    }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
   .servicios__hero {
     .servicios__hero--texts {
+      margin: auto;
       h1 {
         font-size: 90px;
         line-height: 115px;

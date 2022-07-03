@@ -149,7 +149,6 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -350,7 +349,6 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -462,7 +460,7 @@ footer {
 
 .hero__right {
   background-color: #aaa;
-  width: 41.66%;
+  width: 35%;
   height: 100%;
   margin-right: 3.33%;
   margin-left: auto;
@@ -535,7 +533,6 @@ footer {
 
 .servicios {
   display: flex;
-  background-color: #ffd73a;
   width: 100%;
   height: 90vh;
   background-color: #d9d9d9;
@@ -546,7 +543,26 @@ footer {
 
 .proyectos {
   display: flex;
-  background-color: #ffd73a;
+  width: 100%;
+  height: 90vh;
+  background-color: #d9d9d9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.el-estudio {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  background-color: #d9d9d9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactanos {
+  display: flex;
   width: 100%;
   height: 90vh;
   background-color: #d9d9d9;
@@ -556,7 +572,7 @@ footer {
 }
 
 .left {
-  width: 41.66%;
+  width: 35%;
   height: 100%;
   background-color: #aaa;
   margin-left: 3.33%;
@@ -588,7 +604,8 @@ footer {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin: auto;
+  margin-left: auto;
+  margin-right: 15%;
 }
 .left--textArea .left--text .left--texts .t2 {
   width: -webkit-fit-content;
@@ -625,7 +642,7 @@ footer {
 }
 
 .right {
-  width: 41.66%;
+  width: 35%;
   height: 100%;
   background-color: #aaa;
   margin-right: 3.33%;
@@ -657,7 +674,8 @@ footer {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin: auto;
+  margin-left: auto;
+  margin-right: 10%;
 }
 .right--textArea .right--text .right--texts .t2 {
   width: -webkit-fit-content;
@@ -693,6 +711,11 @@ footer {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.el-estudio .left--textArea .left--texts {
+  margin-right: 0;
+  margin-left: 80px;
+}
+
 .instagram__slider {
   width: 100%;
   height: 167px;
@@ -715,7 +738,7 @@ footer {
 }
 
 .socialmedia {
-  margin: 0 0 2.5% 0;
+  margin-bottom: 30px;
   width: 100%;
 }
 .socialmedia .socials {
@@ -738,7 +761,7 @@ footer {
   }
 
   .hero__right--textArea .hero__right--text {
-    margin: auto;
+    margin: auto auto 25% auto;
   }
   .hero__right--textArea .hero__right--text .t1 {
     font-size: 34.6789px;
@@ -989,7 +1012,6 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -1091,7 +1113,13 @@ footer {
   display: flex;
 }
 .servicios__hero .servicios__hero--texts {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 3%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1102,7 +1130,6 @@ footer {
   font-weight: 400;
   font-size: 131.01px;
   line-height: 180px;
-  margin-bottom: -15px;
 }
 .servicios__hero .servicios__hero--texts--text {
   width: 100%;
@@ -1238,14 +1265,14 @@ footer {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   margin: auto 0 auto auto;
-  display: flex;
-  flex-direction: column;
 }
 .right__labels p {
-  margin: auto 0 auto auto;
-  font-family: "DM Serif Display", serif;
+  margin: 26px 0 26px auto;
+  font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22.3277px;
@@ -1255,6 +1282,14 @@ footer {
   width: -moz-fit-content;
   width: fit-content;
   padding: 4px 14px 3px 14px;
+}
+
+.right__labels--mobile {
+  display: none;
+}
+
+.left__labels--mobile {
+  display: none;
 }
 
 .right__text {
@@ -1330,14 +1365,14 @@ footer {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   margin: auto auto auto 0;
-  display: flex;
-  flex-direction: column;
 }
 .left__labels p {
-  margin: auto auto auto 0;
-  font-family: "DM Serif Display", serif;
+  margin: 26px auto 26px 0;
+  font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22.3277px;
@@ -1350,9 +1385,13 @@ footer {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .servicios__hero .servicios__hero--texts {
+    margin: auto;
+  }
   .servicios__hero .servicios__hero--texts h1 {
     font-size: 51.532px;
     line-height: 71px;
+    margin-bottom: 5px;
   }
   .servicios__hero .servicios__hero--texts--text p {
     font-size: 20.1706px;
@@ -1361,7 +1400,7 @@ footer {
   }
 
   .left__text {
-    height: 50%;
+    height: 75%;
     width: 100%;
     margin: auto 0 0 0;
   }
@@ -1398,8 +1437,27 @@ footer {
     display: none;
   }
 
+  .right__labels--mobile {
+    display: block;
+    width: 100%;
+  }
+  .right__labels--mobile p {
+    display: inline-flex;
+    margin: 4px;
+    font-family: "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.0896px;
+    line-height: 13px;
+    background-color: #d9d9d9;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 2px 4px 2px 4px;
+  }
+
   .right__text {
-    height: 50%;
+    height: 75%;
     width: 100%;
     margin: auto 0 0 0;
   }
@@ -1435,8 +1493,30 @@ footer {
   .left__labels {
     display: none;
   }
+
+  .left__labels--mobile {
+    display: block;
+    width: 100%;
+  }
+  .left__labels--mobile p {
+    display: inline-flex;
+    margin: 4px;
+    font-family: "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.0896px;
+    line-height: 13px;
+    background-color: #d9d9d9;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 2px 4px 2px 4px;
+  }
 }
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .servicios__hero .servicios__hero--texts {
+    margin: auto;
+  }
   .servicios__hero .servicios__hero--texts h1 {
     font-size: 90px;
     line-height: 115px;
@@ -1620,7 +1700,6 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -1722,7 +1801,7 @@ footer {
   display: flex;
 }
 .proyectos__hero .proyectos__hero--texts {
-  margin: auto;
+  margin: auto auto 3% auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1790,10 +1869,11 @@ footer {
   text-decoration: none;
   color: black;
   margin: auto;
-  width: 45%;
+  width: 40%;
   height: 90%;
   background-color: #d9d9d9;
   display: flex;
+  box-shadow: 0px 16px 15px rgba(0, 0, 0, 0.25);
 }
 .proyectos__projects .proyectos__projects--projects .proyectos__projects--project .proyect__info {
   margin-top: auto;
@@ -1832,10 +1912,12 @@ footer {
 }
 
 .proyectos__some-projects {
-  margin: auto;
+  margin: 60px auto 60px auto;
   display: flex;
   width: 70%;
-  height: 15%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .proyectos__some-projects div {
   margin: auto;
@@ -1852,9 +1934,13 @@ footer {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .proyectos__hero .proyectos__hero--texts {
+    margin: auto;
+  }
   .proyectos__hero .proyectos__hero--texts h1 {
     font-size: 51.532px;
     line-height: 71px;
+    margin-bottom: 5px;
   }
   .proyectos__hero .proyectos__hero--texts--text p {
     font-size: 20.1706px;
@@ -2026,7 +2112,6 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -2149,6 +2234,7 @@ footer {
 }
 .proyecto__hero .proyecto__hero--texts .proyecto__hero--texts--text h1 p {
   text-transform: uppercase;
+  margin-bottom: -10px;
   font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -2403,7 +2489,6 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -2505,12 +2590,15 @@ footer {
   display: flex;
 }
 .estudio__hero .estudio__hero--texts {
-  margin: auto;
+  margin: auto 20% 3% auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 .estudio__hero .estudio__hero--texts h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   font-family: "DM Serif Display", serif;
   font-style: normal;
   font-weight: 400;
@@ -2524,9 +2612,6 @@ footer {
 }
 .estudio__hero .estudio__hero--texts--text div {
   margin-left: auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -2538,6 +2623,7 @@ footer {
   font-size: 51.28px;
   line-height: 70px;
   margin-top: -20px;
+  margin-left: 250px;
 }
 
 .estudio__presentation {
@@ -2594,6 +2680,7 @@ footer {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  display: flex;
 }
 .estudio__objective div {
   width: 90%;
@@ -2601,7 +2688,6 @@ footer {
   height: -moz-fit-content;
   height: fit-content;
   margin: auto;
-  display: flex;
 }
 .estudio__objective div p {
   font-family: "DM Serif Display", serif;
@@ -2687,6 +2773,7 @@ footer {
   margin: auto;
 }
 .estudio__clients .estudio__clients--container .slider .swiper-slide .swiper-slide--info .client__info div p {
+  margin: 2.5px 0 2.5px 0;
   text-align: start;
   font-family: "Helvetica", sans-serif;
   font-style: normal;
@@ -2721,11 +2808,16 @@ footer {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .estudio__hero .estudio__hero--texts {
+    margin: auto;
+  }
   .estudio__hero .estudio__hero--texts h1 {
     font-size: 51.532px;
     line-height: 71px;
+    margin-bottom: 5px;
   }
   .estudio__hero .estudio__hero--texts--text p {
+    margin-left: 50px;
     font-size: 20.1706px;
     line-height: 28px;
     margin-top: -5px;
@@ -2744,8 +2836,8 @@ footer {
     margin: auto;
   }
   .estudio__presentation .estudio__presentation--container .estudio__presentation--img img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto auto auto;
   }
   .estudio__presentation .estudio__presentation--container .estudio__presentation--text {
@@ -2808,8 +2900,8 @@ footer {
   .estudio__brands .instagram__slider {
     display: block;
     width: 100%;
-    height: 167px;
-    margin: 30px 0 30px 0;
+    height: 50px;
+    margin: 50px 0 30px 0;
     position: relative;
   }
   .estudio__brands .instagram__slider .swiper {
@@ -3049,7 +3141,6 @@ footer {
   flex-direction: column;
 }
 .footer--top__left span {
-  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-size: 58.5681px;
   color: #ffffff;
@@ -3151,7 +3242,7 @@ footer {
   display: flex;
 }
 .contacto__hero .contacto__hero--texts {
-  margin: auto;
+  margin: auto auto 3% auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -3191,8 +3282,7 @@ footer {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin: auto;
-  margin-bottom: 40px;
+  margin: 60px auto 40px auto;
 }
 .contacto__form h2 {
   font-family: "DM Serif Display", serif;
@@ -3223,13 +3313,13 @@ footer {
   font-weight: 400;
   font-size: 26.971px;
   line-height: 31px;
-  border: 2px solid black;
+  border: 2px solid #aaa;
 }
 .contacto__form .contacto__form--form .input-textarea {
   width: 100%;
 }
 .contacto__form .contacto__form--form .input-textarea textarea {
-  border: 2px solid black;
+  border: 2px solid #aaa;
   margin-top: 2%;
   width: 98%;
   height: 415px;
@@ -3246,7 +3336,7 @@ footer {
   display: flex;
 }
 .contacto__form .contacto__form--form .input-button input {
-  border: 2px solid black;
+  border: 2px solid #aaa;
   background-color: white;
   font-family: "Helvetica", sans-serif;
   font-style: normal;
@@ -3257,10 +3347,33 @@ footer {
   margin-left: auto;
 }
 
+.contacto-socialmedia {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.contacto-socialmedia .socials {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.contacto-socialmedia .socials a {
+  display: flex;
+}
+.contacto-socialmedia .socials a svg {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .contacto__hero .contacto__hero--texts {
+    margin: auto;
+  }
   .contacto__hero .contacto__hero--texts h1 {
     font-size: 51.532px;
     line-height: 71px;
+    margin-bottom: 5px;
   }
   .contacto__hero .contacto__hero--texts--text p {
     font-size: 20.1706px;
@@ -3317,6 +3430,18 @@ footer {
     font-size: 12.442px;
     line-height: 14px;
     padding: 6px 17px 6px 17px;
+  }
+
+  .contacto-socialmedia .socials {
+    width: 90%;
+  }
+  .contacto-socialmedia .socials a {
+    width: 25px;
+    height: 25px;
+  }
+  .contacto-socialmedia .socials a svg {
+    width: 25px;
+    height: 25px;
   }
 }
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
@@ -3452,7 +3577,6 @@ footer {
     order: 1;
   }
   .footer--top__left span {
-    font-family: DM Serif Display;
     font-size: 28px;
     font-weight: 400;
     line-height: 38px;
@@ -3460,7 +3584,7 @@ footer {
     text-align: left;
   }
   .footer--top__left .emails a {
-    font-family: Helvetica Light;
+    font-family: "Helvetica", sans-serif;
     font-size: 9px;
     font-weight: 400;
     line-height: 10px;
@@ -3468,9 +3592,13 @@ footer {
     text-align: left;
   }
   .footer--top__left .social {
-    width: 30%;
+    width: 50%;
   }
   .footer--top__left .social a {
+    width: 20px;
+    height: 20px;
+  }
+  .footer--top__left .social a svg {
     width: 20px;
     height: 20px;
   }

@@ -99,7 +99,6 @@ footer {
   flex-direction: column;
 
   span {
-    font-family: $font4;
     font-style: normal;
     font-size: 58.5681px;
     color: $white;
@@ -145,18 +144,18 @@ footer {
     height: auto;
     width: 90%;
     margin: auto;
-
+    
     div {
       float: left;
       margin: auto;
       height: 160px;
       width: 180px;
       padding-right: 1%;
-
+      
       .map--site__header {
         margin-bottom: 20px;
         height: auto;
-
+        
         a {
           color: $white;
           text-decoration: none;
