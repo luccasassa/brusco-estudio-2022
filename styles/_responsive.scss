@@ -1,0 +1,282 @@
+@import 'variables';
+
+//MOBILE RESPONSIVE---------------------------------------------------
+
+@media only screen and (min-width: 0px) and (max-width: 830px) {
+    
+    nav {
+        label {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 1.79rem;
+            cursor: pointer;
+    
+            .burger, .close {
+                font-size: 2.5rem;
+            }
+    
+            .close {
+                display: none;
+            }
+
+            &:active {
+                transition: .5s;
+                opacity: 0;
+            }
+        }
+
+
+        ul {
+            flex-direction: column;
+
+            li {
+                display: none;
+            }
+        }
+
+        input:checked ~ ul li {
+            display: block;
+        }
+    
+        input:checked ~ label .close {
+            display: block;
+        }
+
+        input:checked ~ label .burger {
+            display: none;
+        }
+    }
+
+    /****************/
+    
+    footer {
+        height: auto;
+    }
+
+    .footer {
+        margin: auto;
+        height: auto;
+    }
+
+    .footer--top {
+        flex-direction: column;
+        border: 0px;
+        padding: 0;
+    }
+
+    .footer--top__left {
+        height: 150px;
+        border-top: 1px solid $p8;
+        border-bottom: 1px solid $p8;
+        margin: 30px 0 15px 0;
+        border-right: 0px;
+        width: 100%;
+        order: 1;
+
+        span {
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 38px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .emails {
+            a {
+                font-family: $font2;
+                font-size: 9px;
+                font-weight: 400;
+                line-height: 10px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        .social {
+            width: 50%;
+
+            a {
+                width: 20px;
+                height: 20px;
+                svg{
+                    width: 20px;
+                    height: 20px;
+
+                }
+            }
+        }
+    }
+
+    .footer--top__right {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+        order: 0;
+
+        .map--site {
+            div {
+                margin: 0;
+                padding: 0;
+                width: 50%;
+                height: 150px;
+
+                .map--site__header {
+                    width: 100%;
+
+                    a {
+                        font-family: Helvetica;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 17px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+
+                ul {
+                    a {
+                        font-family: Helvetica Light;
+                        font-size: 11px;
+                        font-weight: 400;
+                        line-height: 14px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer--bottom {
+        padding-bottom: 36px;
+        width: 94%;
+        margin: auto;
+
+        span {
+            font-family: Helvetica Light;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: $white;
+        }
+    }
+}
+
+//TABLET RESPONSIVE---------------------------------------------------
+
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+    footer {
+        height: auto;
+    }
+
+    .footer {
+        margin: auto;
+        height: auto;
+    }
+
+    .footer--top {
+        flex-direction: column;
+        border: 0px;
+    }
+
+    .footer--top__left {
+        height: 150px;
+        border-top: 1px solid $p8;
+        border-bottom: 1px solid $p8;
+        margin: 30px 0 15px 0;
+        border-right: 0px;
+        width: 100%;
+        order: 1;
+
+        span {
+            font-family: DM Serif Display;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 38px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .emails {
+            a {
+                font-family: Helvetica Light;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 10px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        .social {
+            width: 30%;
+
+            a {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    .footer--top__right {
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+        order: 0;
+
+        .map--site {
+            div {
+                margin: 0;
+                padding: 0;
+                width: 33%;
+                height: 150px;
+
+                .map--site__header {
+                    width: 100%;
+
+                    a {
+                        font-family: Helvetica;
+                        font-size: 19.5px;
+                        font-weight: 400;
+                        line-height: 17px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+
+                ul {
+                    a {
+                        font-family: Helvetica Light;
+                        font-size: 14.5px;
+                        font-weight: 400;
+                        line-height: 14px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer--bottom {
+        padding-bottom: 36px;
+        width: 94%;
+        margin: auto;
+
+        span {
+            font-family: Helvetica Light;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: $white;
+        }
+    }
+}
