@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
 $p1: #ffd73a;
 $p2: #ffe682;
@@ -16,16 +16,37 @@ $black: #000000;
 $white: #ffffff;
 
 @font-face {
-  src: url('../assets/fonts/Helvetica.ttf');
-  font-family: 'Helvetica', sans-serif;
+  src: url("../assets/fonts/Helvetica.ttf");
+  font-family: "Helvetica", sans-serif;
 }
 @font-face {
-  src: url('../assets/fonts/HelveticaLt.ttf');
-  font-family: 'HelveticaLt', sans-serif;
+  src: url("../assets/fonts/HelveticaLt.ttf");
+  font-family: "HelveticaLt", sans-serif;
 }
 
-$font1: 'Montserrat', sans-serif;
-$font2: 'Helvetica', sans-serif;
-$font3: 'Roboto', sans-serif;
-$font4: 'DM Serif Display', serif;
-$font5: 'HelveticaLt', serif;
+$font1: "Montserrat", sans-serif;
+$font2: "Helvetica", sans-serif;
+$font3: "Roboto", sans-serif;
+$font4: "DM Serif Display", serif;
+$font5: "HelveticaLt", serif;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 4.5em;
+}
+
+.estudio__brands,
+.instagram__slider {
+  cursor: pointer;
+}
