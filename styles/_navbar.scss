@@ -1,18 +1,17 @@
-@import 'variables';
-
 //---------------------------------------------------NAVBAR
 
 nav {
     position: sticky;
     top: 0;
     height: 4.5rem;
-    padding: 5px 3rem;
+    padding: 0 3rem;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     background-color: $white;
+    border-bottom: 1px solid rgba($color: #999, $alpha: 0.1);
     z-index: 99;
 }
 

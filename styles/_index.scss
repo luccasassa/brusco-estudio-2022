@@ -1,11 +1,3 @@
-@import 'variables';
-//background: url(Banner_Muchomasquedisenio.jpg);
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
 //---------------------------------------------------HERO
 .hero {
   display: flex;
@@ -18,7 +10,7 @@
 }
 .hero__right {
   background-color: $p7;
-  width: 41.66%;
+  width: 35%;
   height: 100%;
   margin-right: 3.33%;
   margin-left: auto;
@@ -85,7 +77,6 @@
 //---------------------------------------------------SERVICIOS
 .servicios {
   display: flex;
-  background-color: $p1;
   width: 100%;
   height: 90vh;
   background-color: $p8;
@@ -97,7 +88,28 @@
 //---------------------------------------------------PROYECTOS
 .proyectos {
   display: flex;
-  background-color: $p1;
+  width: 100%;
+  height: 90vh;
+  background-color: $p8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//---------------------------------------------------EL ESTUDIO
+.el-estudio {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  background-color: $p8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//---------------------------------------------------CONTACTANOS
+.contactanos {
+  display: flex;
   width: 100%;
   height: 90vh;
   background-color: $p8;
@@ -108,7 +120,7 @@
 
 //---------------------------------------------------LEFT
 .left {
-  width: 41.66%;
+  width: 35%;
   height: 100%;
   background-color: $p7;
   margin-left: 3.33%;
@@ -133,7 +145,8 @@
     }
     .left--texts {
       width: fit-content;
-      margin: auto;
+      margin-left: auto;
+      margin-right: 15%;
       .t2 {
         width: fit-content;
         font-family: $font4;
@@ -170,7 +183,7 @@
 
 //---------------------------------------------------RIGHT
 .right {
-  width: 41.66%;
+  width: 35%;
   height: 100%;
   background-color: $p7;
   margin-right: 3.33%;
@@ -183,7 +196,6 @@
   .right--text {
     width: fit-content;
     height: fit-content;
-    //margin-top: auto;
     margin: auto auto 5% auto;
     .right--title {
       .t1 {
@@ -196,7 +208,8 @@
     }
     .right--texts {
       width: fit-content;
-      margin: auto;
+      margin-left: auto;
+      margin-right: 10%;
       .t2 {
         width: fit-content;
         font-family: $font4;
@@ -231,6 +244,16 @@
   }
 }
 
+//---------------------------------------------------MODIFICATIONS
+.el-estudio {
+  .left--textArea {
+    .left--texts {
+      margin-right:0;
+      margin-left:80px;
+    }
+  }
+}
+
 //---------------------------------------------------INSTAGRAM SLIDERS
 .instagram__slider {
   width: 100%;
@@ -254,7 +277,7 @@
 }
 
 .socialmedia {
-  margin: 0 0 2.5% 0;
+  margin-bottom: 30px;
   width: 100%;
   .socials {
     width: 60%;
@@ -270,6 +293,7 @@
   }
 }
 
+
 @media only screen and (min-width: 0px) and (max-width: 830px) {
   .hero__right {
     width: 100%;
@@ -277,7 +301,7 @@
   }
   .hero__right--textArea {
     .hero__right--text {
-      margin: auto;
+      margin: auto auto 25% auto;
       .t1 {
         font-size: 34.6789px;
         line-height: 43px;
