@@ -231,16 +231,6 @@ footer {
   color: #ffffff;
 }
 
-.hero {
-  display: flex;
-  background-color: #d9d9d9;
-  width: 100%;
-  height: 90vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .hero__right {
   background-color: #aaa;
   width: 35%;
@@ -314,10 +304,20 @@ footer {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.hero {
+  display: flex;
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 92.4vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .servicios {
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   background-color: #d9d9d9;
   background-position: center;
   background-repeat: no-repeat;
@@ -327,7 +327,7 @@ footer {
 .proyectos {
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   background-color: #d9d9d9;
   background-position: center;
   background-repeat: no-repeat;
@@ -337,7 +337,7 @@ footer {
 .el-estudio {
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   background-color: #d9d9d9;
   background-position: center;
   background-repeat: no-repeat;
@@ -347,7 +347,7 @@ footer {
 .contactanos {
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   background-color: #d9d9d9;
   background-position: center;
   background-repeat: no-repeat;
@@ -537,6 +537,28 @@ footer {
   margin: auto;
 }
 
+.snap-container {
+  height: 92.4vh;
+  overflow: auto;
+  overflow: overlay;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.snap-container::-webkit-scrollbar {
+  display: none;
+}
+
+.snap-container::-webkit-scrollbar {
+  width: 0;
+}
+
+.snap-section {
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 830px) {
   .hero__right {
     width: 100%;
@@ -674,7 +696,7 @@ footer {
   }
 }
 .servicios__hero {
-  height: 90vh;
+  height: 92.4vh;
   width: 100%;
   background-color: #aaa;
   display: flex;
@@ -723,7 +745,7 @@ footer {
 .servicios__packaging {
   background-color: #d9d9d9;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   display: flex;
   background-position: center;
   background-size: cover;
@@ -733,7 +755,7 @@ footer {
 .servicios__branding {
   background-color: #d9d9d9;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   display: flex;
   background-position: center;
   background-size: cover;
@@ -743,7 +765,7 @@ footer {
 .servicios__editorial {
   background-color: #d9d9d9;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   display: flex;
   background-position: center;
   background-size: cover;
@@ -753,7 +775,7 @@ footer {
 .servicios__marketing {
   background-color: #d9d9d9;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   display: flex;
   background-position: center;
   background-size: cover;
@@ -949,6 +971,28 @@ footer {
   width: -moz-fit-content;
   width: fit-content;
   padding: 4px 14px 3px 14px;
+}
+
+.snap-container {
+  height: 92.4vh;
+  overflow: auto;
+  overflow: overlay;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.snap-container::-webkit-scrollbar {
+  display: none;
+}
+
+.snap-container::-webkit-scrollbar {
+  width: 0;
+}
+
+.snap-section {
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
@@ -1152,7 +1196,7 @@ footer {
   }
 }
 .proyectos__hero {
-  height: 90vh;
+  height: 92.4vh;
   width: 100%;
   background-color: #aaa;
   display: flex;
@@ -1360,7 +1404,7 @@ footer {
   }
 }
 .proyecto__hero {
-  height: 90vh;
+  height: 92.4vh;
   width: 100%;
   background-color: #d9d9d9;
   display: flex;
@@ -1535,7 +1579,7 @@ footer {
   }
 }
 .estudio__hero {
-  height: 90vh;
+  height: 92.4vh;
   width: 100%;
   background-color: #aaa;
   display: flex;
@@ -1981,7 +2025,7 @@ footer {
   }
 }
 .contacto__hero {
-  height: 90vh;
+  height: 92.4vh;
   width: 100%;
   background-color: #aaa;
   display: flex;

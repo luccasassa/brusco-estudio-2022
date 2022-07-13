@@ -1,13 +1,4 @@
-//---------------------------------------------------HERO
-.hero {
-  display: flex;
-  background-color: $p8;
-  width: 100%;
-  height: 90vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .hero__right {
   background-color: $p7;
   width: 35%;
@@ -22,7 +13,6 @@
   .hero__right--text {
     width: fit-content;
     height: fit-content;
-    //margin-top: auto;
     margin: auto auto 0 auto;
     .t1 {
       font-family: $font2;
@@ -73,23 +63,31 @@
     background-color: rgba(0, 0, 0, 0);
   }
 }
-
+//---------------------------------------------------HERO
+.hero {
+  display: flex;
+  background-color: $p8;
+  width: 100%;
+  height: 92.4vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 //---------------------------------------------------SERVICIOS
 .servicios {
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   background-color: $p8;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 //---------------------------------------------------PROYECTOS
 .proyectos {
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   background-color: $p8;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,7 +98,7 @@
 .el-estudio {
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   background-color: $p8;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,7 +109,7 @@
 .contactanos {
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
   background-color: $p8;
   background-position: center;
   background-repeat: no-repeat;
@@ -293,6 +291,26 @@
   }
 }
 
+.snap-container {
+  height: 92.4vh;
+  overflow: auto;  
+  overflow: overlay;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.snap-container::-webkit-scrollbar {
+  display: none;
+}
+
+.snap-container::-webkit-scrollbar {
+  width: 0;
+}
+
+.snap-section {
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
+}
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
   .hero__right {
