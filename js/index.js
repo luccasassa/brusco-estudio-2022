@@ -1,3 +1,5 @@
+import db from '../data/data.js'
+
 const d = document;
 const hamburger = d.querySelector(".hamburger");
 const navMenu = d.querySelector(".nav-menu");
@@ -20,22 +22,5 @@ main.addEventListener("click", () => {
   navMenu.classList.remove("active");
 });
 
-window.addEventListener('scroll', function(e) {
-  /*
-  last_known_scroll_position = window.scrollY;
-  if (!ticking) {
-    window.requestAnimationFrame(function() {
-      doSomething(last_known_scroll_position);
-      ticking = false;
-    });
-  }
-  ticking = true;
-  */
- window.scrollY({
-  scrollY: 2000,
-   behavior: 'smooth'
-});
-});
-
-/*
-*/
+console.log('a');
+console.log(db);
