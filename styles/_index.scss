@@ -1,3 +1,7 @@
+.myVerticalSwiper {
+  width: 100%;
+  height: 92.4vh;
+}
 
 .hero__right {
   background-color: $p7;
@@ -246,8 +250,8 @@
 .el-estudio {
   .left--textArea {
     .left--texts {
-      margin-right:0;
-      margin-left:80px;
+      margin-right: 0;
+      margin-left: 80px;
     }
   }
 }
@@ -289,27 +293,6 @@
       }
     }
   }
-}
-
-.snap-container {
-  height: 92.4vh;
-  overflow: auto;  
-  overflow: overlay;
-  scroll-snap-type: y mandatory;
-  scrollbar-width: none;
-}
-
-.snap-container::-webkit-scrollbar {
-  display: none;
-}
-
-.snap-container::-webkit-scrollbar {
-  width: 0;
-}
-
-.snap-section {
-  scroll-snap-align: end;
-  scroll-snap-stop: always;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
