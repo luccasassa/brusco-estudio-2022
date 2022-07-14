@@ -1,4 +1,4 @@
-import db from '../data/data.js'
+
 
 const d = document;
 const hamburger = d.querySelector(".hamburger");
@@ -22,5 +22,3 @@ main.addEventListener("click", () => {
   navMenu.classList.remove("active");
 });
 
-console.log('a');
-console.log(db);

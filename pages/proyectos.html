@@ -190,12 +190,79 @@
           </div>
         </div>
       </div>
+
       <div class="proyectos__alls">
         <div class="proyectos__types">
-          <a href="#">PACKAGING</a>
-          <a href="#">EDITORIAL</a>
-          <a href="#">IDENTIDAD & BRANDING</a>
-          <a href="#">MARKETING</a>
+          <div id="proyectos__types--buttons">
+            <button
+              class="proyecto__type"
+              id="packaging"
+              onclick="showProjects('packaging')"
+            >
+              PACKAGING
+            </button>
+            <button
+              class="proyecto__type"
+              id="editorial"
+              onclick="showProjects('editorial')"
+            >
+              EDITORIAL
+            </button>
+            <button
+              class="proyecto__type"
+              id="branding"
+              onclick="showProjects('branding')"
+            >
+              IDENTIDAD & BRANDING
+            </button>
+            <button
+              class="proyecto__type"
+              id="marketing"
+              onclick="showProjects('marketing')"
+            >
+              MARKETING
+            </button>
+          </div>
+
+          <div id="proyectos__types--select">
+            <select
+              name=""
+              onChange="showProjects(this.options[this.selectedIndex].value)"
+            >
+              <option
+                value="packaging"
+                class="proyecto__types--option"
+                value="packaging"
+                id="packaging"
+              >
+                packaging
+              </option>
+              <option
+                value="editorial"
+                class="proyecto__types--option"
+                value="editorial"
+                id="editorial"
+              >
+                editorial
+              </option>
+              <option
+                value="branding"
+                class="proyecto__types--option"
+                value="branding"
+                id="branding"
+              >
+                branding
+              </option>
+              <option
+                value="marketing"
+                class="proyecto__types--option"
+                value="marketing"
+                id="marketing"
+              >
+                marketing
+              </option>
+            </select>
+          </div>
         </div>
 
         <div class="proyectos__projects">
@@ -304,7 +371,10 @@
             </div>
 
             <div class="social">
-              <a href="https://www.instagram.com/brusco_estudio/" target="_blank">
+              <a
+                href="https://www.instagram.com/brusco_estudio/"
+                target="_blank"
+              >
                 <svg
                   width="32"
                   height="32"
@@ -414,19 +484,27 @@
                 </div>
                 <ul>
                   <li>
-                    <a href="./servicios.html#servicios-packaging">Diseño de Packaging y Producto</a>
+                    <a href="./servicios.html#servicios-packaging"
+                      >Diseño de Packaging y Producto</a
+                    >
                   </li>
 
                   <li>
-                    <a href="./servicios.html#servicios-editorial">Diseño Editorial</a>
+                    <a href="./servicios.html#servicios-editorial"
+                      >Diseño Editorial</a
+                    >
                   </li>
 
                   <li>
-                    <a href="./servicios.html#servicios-branding">Identidad & Branding</a>
+                    <a href="./servicios.html#servicios-branding"
+                      >Identidad & Branding</a
+                    >
                   </li>
 
                   <li>
-                    <a href="./servicios.html#servicios-marketing">Marketing Digital</a>
+                    <a href="./servicios.html#servicios-marketing"
+                      >Marketing Digital</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -516,5 +594,6 @@
 
     <!--SCRIPT-->
     <script src="../js/index.js"></script>
+    <script src="../js/productos.js"></script>
   </body>
 </html>
