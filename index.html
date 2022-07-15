@@ -36,6 +36,11 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+
     <!-- JQUERY -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -186,6 +191,13 @@
     </nav>
 
     <main>
+      <a
+        href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+        class="float"
+        target="_blank"
+      >
+        <i class="fa fa-whatsapp my-float"></i>
+      </a>
       <div class="swiper myVerticalSwiper">
         <div class="swiper-wrapper">
           <div class="hero swiper-slide">
@@ -323,6 +335,12 @@
             <div class="swiper-slide">Slide 8</div>
             <div class="swiper-slide">Slide 9</div>
           </div>
+        </div>
+        <div class="instagram__banner">
+          <img
+            src="./assets/img/contacto/@brusco_estudio.png"
+            alt="@brusco_estudio"
+          />
         </div>
       </div>
 
@@ -651,10 +669,13 @@
     ></script>
 
     <script type="module">
-      import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
-      var swiper = new Swiper(".mySwiper", {
+      import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js';
+      var swiper = new Swiper('.mySwiper', {
         slidesPerView: 2,
         breakpoints: {
+          0: {
+            slidesPerView: 4,
+          },
           830: {
             slidesPerView: 5,
           },
@@ -673,8 +694,8 @@
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-      var swiper = new Swiper(".myVerticalSwiper", {
-        direction: "vertical",
+      var swiper = new Swiper('.myVerticalSwiper', {
+        direction: 'vertical',
         slidesPerView: 1,
         spaceBetween: 0,
         mousewheel: true,

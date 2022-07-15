@@ -69,7 +69,8 @@ footer {
       margin: auto;
 
       &:hover {
-        filter: invert(10%) sepia(52%) saturate(7197%) hue-rotate(324deg) brightness(103%) contrast(101%);
+        filter: invert(10%) sepia(52%) saturate(7197%) hue-rotate(324deg)
+          brightness(103%) contrast(101%);
       }
     }
   }

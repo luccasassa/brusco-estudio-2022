@@ -1,6 +1,71 @@
+.float {
+  display: none;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 .myVerticalSwiper {
   width: 100%;
   height: 92.4vh;
+}
+//---------------------------------------------------HERO
+.hero {
+  display: flex;
+  background-color: $p8;
+  background-image: url('../assets/img/banners/Banner_Muchomasquedisenio.jpg');
+  width: 100%;
+  height: 92.4vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+//---------------------------------------------------SERVICIOS
+.servicios {
+  display: flex;
+  width: 100%;
+  height: 92.4vh;
+  background-color: $p8;
+  background-image: url('../assets/img/banners/Banner_Diseniodepackaging.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+//---------------------------------------------------PROYECTOS
+.proyectos {
+  display: flex;
+  width: 100%;
+  height: 92.4vh;
+  background-color: $p8;
+  background-image: url('../assets/img/banners/Banner_DisenioEditorial.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//---------------------------------------------------EL ESTUDIO
+.el-estudio {
+  display: flex;
+  width: 100%;
+  height: 92.4vh;
+  background-color: $p8;
+  background-image: url('../assets/img/banners/Banner_IdentidadYBranding.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//---------------------------------------------------CONTACTANOS
+.contactanos {
+  display: flex;
+  width: 100%;
+  height: 92.4vh;
+  background-color: $p8;
+  background-image: url('../assets/img/banners/Banner_MarketingDigital.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero__right {
@@ -49,6 +114,7 @@
   width: 100%;
   height: 40%;
   display: flex;
+
   a {
     text-decoration: none;
     color: $black;
@@ -66,58 +132,6 @@
     width: 105px;
     background-color: rgba(0, 0, 0, 0);
   }
-}
-//---------------------------------------------------HERO
-.hero {
-  display: flex;
-  background-color: $p8;
-  width: 100%;
-  height: 92.4vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-//---------------------------------------------------SERVICIOS
-.servicios {
-  display: flex;
-  width: 100%;
-  height: 92.4vh;
-  background-color: $p8;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-//---------------------------------------------------PROYECTOS
-.proyectos {
-  display: flex;
-  width: 100%;
-  height: 92.4vh;
-  background-color: $p8;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-//---------------------------------------------------EL ESTUDIO
-.el-estudio {
-  display: flex;
-  width: 100%;
-  height: 92.4vh;
-  background-color: $p8;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-//---------------------------------------------------CONTACTANOS
-.contactanos {
-  display: flex;
-  width: 100%;
-  height: 92.4vh;
-  background-color: $p8;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 //---------------------------------------------------LEFT
@@ -169,7 +183,7 @@
     color: $black;
   }
   button {
-    margin: auto 5% auto auto;
+    margin: auto;
     font-family: $font2;
     font-style: normal;
     font-weight: 400;
@@ -232,7 +246,7 @@
     color: $black;
   }
   button {
-    margin: auto 5% auto auto;
+    margin: auto;
     font-family: $font2;
     font-style: normal;
     font-weight: 400;
@@ -261,10 +275,8 @@
   width: 100%;
   height: 167px;
   margin: 30px 0 30px 0;
-  position: relative;
   background-color: $p8;
   .swiper {
-    position: absolute;
     width: 100%;
     height: 100%;
   }
@@ -275,6 +287,15 @@
     justify-content: center;
     font-size: 18px;
     background-color: $p8;
+  }
+  .instagram__banner {
+    display: flex;
+    margin-top: -65px;
+    img {
+      z-index: 2;
+      margin: auto;
+      min-width: 90px;
+    }
   }
 }
 
@@ -296,6 +317,26 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .myVerticalSwiper {
+    width: 100%;
+    height: 93vh;
+  }
+  .float {
+    display: block;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: $p8;
+    color: $p7;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+
   .hero__right {
     width: 100%;
     margin: 0;
@@ -385,6 +426,7 @@
       }
     }
   }
+
   .right--cta {
     width: 100%;
     height: 15%;
@@ -397,7 +439,30 @@
   }
 
   .instagram__slider {
-    display: none;
+    width: 100%;
+    height: 70px;
+    margin: 100px 0 30px 0;
+    position: relative;
+    background-color: $p8;
+    .swiper {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      width: 167px;
+      height: 167px;
+      text-align: center;
+      justify-content: center;
+      font-size: 18px;
+      background-color: $p8;
+    }
+    .instagram__banner {
+      img {
+        width: 150px;
+        margin-top: 6%;
+      }
+    }
   }
 
   .socialmedia {

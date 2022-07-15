@@ -1,3 +1,11 @@
+.float {
+  display: none;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 .contacto__hero {
   height: 92.4vh;
   width: 100%;
@@ -125,6 +133,21 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .float {
+    display: block;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: $p8;
+    color: $p7;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
   .contacto__hero {
     .contacto__hero--texts {
       margin: auto;
@@ -194,21 +217,19 @@
     }
   }
 
-  .contacto-socialmedia{
-    .socials{
+  .contacto-socialmedia {
+    .socials {
       width: 90%;
       a {
         width: 25px;
         height: 25px;
-        svg{
+        svg {
           width: 25px;
           height: 25px;
-
         }
       }
     }
   }
-
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1200px) {

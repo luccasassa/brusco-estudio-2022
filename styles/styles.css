@@ -231,9 +231,72 @@ footer {
   color: #ffffff;
 }
 
+.float {
+  display: none;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 .myVerticalSwiper {
   width: 100%;
   height: 92.4vh;
+}
+
+.hero {
+  display: flex;
+  background-color: #d9d9d9;
+  background-image: url("../assets/img/banners/Banner_Muchomasquedisenio.jpg");
+  width: 100%;
+  height: 92.4vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.servicios {
+  display: flex;
+  width: 100%;
+  height: 92.4vh;
+  background-color: #d9d9d9;
+  background-image: url("../assets/img/banners/Banner_Diseniodepackaging.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.proyectos {
+  display: flex;
+  width: 100%;
+  height: 92.4vh;
+  background-color: #d9d9d9;
+  background-image: url("../assets/img/banners/Banner_DisenioEditorial.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.el-estudio {
+  display: flex;
+  width: 100%;
+  height: 92.4vh;
+  background-color: #d9d9d9;
+  background-image: url("../assets/img/banners/Banner_IdentidadYBranding.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactanos {
+  display: flex;
+  width: 100%;
+  height: 92.4vh;
+  background-color: #d9d9d9;
+  background-image: url("../assets/img/banners/Banner_MarketingDigital.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero__right {
@@ -309,56 +372,6 @@ footer {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.hero {
-  display: flex;
-  background-color: #d9d9d9;
-  width: 100%;
-  height: 92.4vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.servicios {
-  display: flex;
-  width: 100%;
-  height: 92.4vh;
-  background-color: #d9d9d9;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.proyectos {
-  display: flex;
-  width: 100%;
-  height: 92.4vh;
-  background-color: #d9d9d9;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.el-estudio {
-  display: flex;
-  width: 100%;
-  height: 92.4vh;
-  background-color: #d9d9d9;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.contactanos {
-  display: flex;
-  width: 100%;
-  height: 92.4vh;
-  background-color: #d9d9d9;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .left {
   width: 35%;
   height: 100%;
@@ -416,7 +429,7 @@ footer {
   color: #000000;
 }
 .left--cta button {
-  margin: auto 5% auto auto;
+  margin: auto;
   font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -486,7 +499,7 @@ footer {
   color: #000000;
 }
 .right--cta button {
-  margin: auto 5% auto auto;
+  margin: auto;
   font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -508,11 +521,9 @@ footer {
   width: 100%;
   height: 167px;
   margin: 30px 0 30px 0;
-  position: relative;
   background-color: #d9d9d9;
 }
 .instagram__slider .swiper {
-  position: absolute;
   width: 100%;
   height: 100%;
 }
@@ -523,6 +534,15 @@ footer {
   justify-content: center;
   font-size: 18px;
   background-color: #d9d9d9;
+}
+.instagram__slider .instagram__banner {
+  display: flex;
+  margin-top: -65px;
+}
+.instagram__slider .instagram__banner img {
+  z-index: 2;
+  margin: auto;
+  min-width: 90px;
 }
 
 .socialmedia {
@@ -543,6 +563,25 @@ footer {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .myVerticalSwiper {
+    width: 100%;
+    height: 93vh;
+  }
+  .float {
+    display: block;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #d9d9d9;
+    color: #aaa;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
   .hero__right {
     width: 100%;
     margin: 0;
@@ -625,7 +664,28 @@ footer {
     width: 59.71px;
   }
   .instagram__slider {
-    display: none;
+    width: 100%;
+    height: 70px;
+    margin: 100px 0 30px 0;
+    position: relative;
+    background-color: #d9d9d9;
+  }
+  .instagram__slider .swiper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .instagram__slider .swiper-slide {
+    width: 167px;
+    height: 167px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #d9d9d9;
+  }
+  .instagram__slider .instagram__banner img {
+    width: 150px;
+    margin-top: 6%;
   }
   .socialmedia {
     z-index: -10;
@@ -678,6 +738,14 @@ footer {
     font-size: 25px;
   }
 }
+.float {
+  display: none;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 .myVerticalSwiper {
   width: 100%;
   height: 92.4vh;
@@ -731,6 +799,7 @@ footer {
 }
 
 .servicios__packaging {
+  background-image: url("../assets/img/banners/Banner_Diseniodepackaging.jpg");
   background-color: #d9d9d9;
   width: 100%;
   height: 92.4vh;
@@ -741,6 +810,7 @@ footer {
 }
 
 .servicios__branding {
+  background-image: url("../assets/img/banners/Banner_IdentidadYBranding.jpg");
   background-color: #d9d9d9;
   width: 100%;
   height: 92.4vh;
@@ -751,6 +821,7 @@ footer {
 }
 
 .servicios__editorial {
+  background-image: url("../assets/img/banners/Banner_DisenioEditorial.jpg");
   background-color: #d9d9d9;
   width: 100%;
   height: 92.4vh;
@@ -761,6 +832,7 @@ footer {
 }
 
 .servicios__marketing {
+  background-image: url("../assets/img/banners/Banner_MarketingDigital.jpg");
   background-color: #d9d9d9;
   width: 100%;
   height: 92.4vh;
@@ -962,6 +1034,25 @@ footer {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .myVerticalSwiper {
+    width: 100%;
+    height: 90vh;
+  }
+  .float {
+    display: block;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #d9d9d9;
+    color: #aaa;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
   .servicios__hero .servicios__hero--texts {
     margin: auto;
   }
@@ -1161,6 +1252,14 @@ footer {
     padding: 3px 12px 3px 12px;
   }
 }
+.float {
+  display: none;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 .proyectos__hero {
   height: 92.4vh;
   width: 100%;
@@ -1250,6 +1349,15 @@ footer {
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.proyectos__alls .proyectos__projects .proyectos__projects--projects .proyectos__projects--project .proyectos__projects--img {
+  height: 70%;
+  width: 100%;
+  border: 0;
 }
 .proyectos__alls .proyectos__projects .proyectos__projects--projects .proyectos__projects--project .proyect__info {
   width: 100%;
@@ -1307,6 +1415,21 @@ footer {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 766px) {
+  .float {
+    display: block;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #d9d9d9;
+    color: #aaa;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
   .proyectos__hero .proyectos__hero--texts {
     margin: auto;
   }
@@ -1434,6 +1557,14 @@ footer {
     width: 140px;
   }
 }
+.float {
+  display: none;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 .proyecto__hero {
   height: 92.4vh;
   width: 100%;
@@ -1514,8 +1645,26 @@ footer {
   width: 32%;
   background-color: #d9d9d9;
 }
+.proyecto__info .swiper-pagination {
+  font-family: "Helvetica", sans-serif;
+}
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .float {
+    display: block;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #d9d9d9;
+    color: #aaa;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
   .proyecto__hero .proyecto__hero--texts {
     margin: auto 0 0 0;
     width: 100%;
@@ -1536,10 +1685,13 @@ footer {
     line-height: 44px;
   }
   .proyecto__info {
-    height: 50vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .proyecto__info .proyecto__info--info {
-    height: 30%;
+    height: 20%;
   }
   .proyecto__info .proyecto__info--info h2 {
     font-size: 26.0217px;
@@ -1550,21 +1702,35 @@ footer {
     line-height: 12px;
   }
   .proyecto__info .proyecto__info--img {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    overflow: hidden;
+    display: none;
   }
-  .proyecto__info .proyecto__info--img .proyecto__info--img--row {
+  .proyecto__info .swiper {
     width: 100%;
-    height: 60%;
-    display: flex;
-    margin-top: 1%;
+    height: 65%;
   }
-  .proyecto__info .proyecto__info--img .proyecto__info--img--row div {
-    margin: auto;
+  .proyecto__info .swiper-slide {
+    text-align: center;
+    font-size: 12px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .proyecto__info .swiper-slide img {
+    display: block;
+    width: 100%;
     height: 100%;
-    width: 98%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .proyecto__info .swiper-button-prev {
+    color: #aaa;
+  }
+  .proyecto__info .swiper-button-next {
+    color: #aaa;
+  }
+  .proyecto__info .swiper-pagination {
+    font-family: "Helvetica", sans-serif;
   }
 }
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
@@ -1581,34 +1747,58 @@ footer {
     font-size: 50.0856px;
     line-height: 52px;
   }
+  .proyecto__info {
+    height: 70vh;
+  }
   .proyecto__info .proyecto__info--info {
-    height: 20%;
+    height: 30%;
   }
   .proyecto__info .proyecto__info--info h2 {
-    font-size: 41.408px;
-    line-height: 57px;
+    font-size: 32.0217px;
+    line-height: 36px;
   }
   .proyecto__info .proyecto__info--info p {
-    font-size: 17.5066px;
-    line-height: 19px;
+    font-size: 16.8439px;
+    line-height: 22px;
   }
   .proyecto__info .proyecto__info--img {
-    height: 100%;
-    width: 100%;
+    display: none;
   }
-  .proyecto__info .proyecto__info--img .proyecto__info--img--row {
+  .proyecto__info .swiper {
     width: 100%;
-    height: 30%;
+    height: 65%;
+  }
+  .proyecto__info .swiper-slide {
+    text-align: center;
     display: flex;
-    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
   }
-  .proyecto__info .proyecto__info--img .proyecto__info--img--row div {
-    margin: auto;
+  .proyecto__info .swiper-slide img {
+    display: block;
+    width: 100%;
     height: 100%;
-    width: 32%;
-    background-color: #d9d9d9;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .proyecto__info .swiper-button-prev {
+    color: #aaa;
+  }
+  .proyecto__info .swiper-button-next {
+    color: #aaa;
+  }
+  .proyecto__info .swiper-pagination {
+    font-family: "Helvetica", sans-serif;
   }
 }
+.float {
+  display: none;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 .estudio__hero {
   height: 92.4vh;
   width: 100%;
@@ -1761,7 +1951,6 @@ footer {
 .estudio__clients .estudio__clients--container .slider .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #787878;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1809,6 +1998,24 @@ footer {
   font-size: 24.8677px;
   line-height: 29px;
 }
+.estudio__clients .estudio__clients--container .slider .testimony1 {
+  background-image: url("../assets/img/opiniones/Opinion_Hugo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.estudio__clients .estudio__clients--container .slider .testimony2 {
+  background-image: url("../assets/img/opiniones/Opinion_Reino.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.estudio__clients .estudio__clients--container .slider .testimony3 {
+  background-image: url("../assets/img/opiniones/Opinion_Craftmen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .estudio__brands .instagram__slider {
   width: 100%;
@@ -1822,20 +2029,35 @@ footer {
   height: 100%;
 }
 .estudio__brands .instagram__slider .swiper-slide {
-  width: 167px;
+  width: 100px;
   text-align: center;
-  font-size: 18px;
   background-color: #d9d9d9;
+  display: flex;
 }
 .estudio__brands .instagram__slider .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 80%;
+  height: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: auto;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .float {
+    display: block;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #d9d9d9;
+    color: #aaa;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
   .estudio__hero .estudio__hero--texts {
     margin: auto;
   }
@@ -2055,6 +2277,14 @@ footer {
        object-fit: cover;
   }
 }
+.float {
+  display: none;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 .contacto__hero {
   height: 92.4vh;
   width: 100%;
@@ -2187,6 +2417,21 @@ footer {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
+  .float {
+    display: block;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #d9d9d9;
+    color: #aaa;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
   .contacto__hero .contacto__hero--texts {
     margin: auto;
   }
@@ -2483,7 +2728,7 @@ footer {
     width: 100%;
   }
   .footer--top__right .map--site div .map--site__header a {
-    font-family: Helvetica;
+    font-family: "Helvetica", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 17px;
@@ -2491,9 +2736,9 @@ footer {
     text-align: left;
   }
   .footer--top__right .map--site div ul a {
-    font-family: Helvetica Light;
+    font-family: "Helvetica", sans-serif;
     font-size: 11px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
@@ -2504,7 +2749,7 @@ footer {
     margin: auto;
   }
   .footer--bottom span {
-    font-family: Helvetica Light;
+    font-family: "Helvetica", sans-serif Light;
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
@@ -2535,7 +2780,7 @@ footer {
     order: 1;
   }
   .footer--top__left span {
-    font-family: DM Serif Display;
+    font-family: "DM Serif Display", serif;
     font-size: 28px;
     font-weight: 400;
     line-height: 38px;
@@ -2543,9 +2788,9 @@ footer {
     text-align: left;
   }
   .footer--top__left .emails a {
-    font-family: Helvetica Light;
+    font-family: "Helvetica", sans-serif;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 10px;
     letter-spacing: 0em;
     text-align: left;
@@ -2573,7 +2818,7 @@ footer {
     width: 100%;
   }
   .footer--top__right .map--site div .map--site__header a {
-    font-family: Helvetica;
+    font-family: "Helvetica", sans-serif;
     font-size: 19.5px;
     font-weight: 400;
     line-height: 17px;
@@ -2581,9 +2826,9 @@ footer {
     text-align: left;
   }
   .footer--top__right .map--site div ul a {
-    font-family: Helvetica Light;
+    font-family: "Helvetica", sans-serif;
     font-size: 14.5px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
@@ -2594,9 +2839,9 @@ footer {
     margin: auto;
   }
   .footer--bottom span {
-    font-family: Helvetica Light;
+    font-family: "Helvetica", sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
