@@ -79,7 +79,7 @@
     cursor: pointer;
   }
 
-  .hamburger:hover .bar {
+  .hamburger:active .bar {
     background-color: $p1;
   }
 
@@ -102,7 +102,7 @@
     height: 3px;
     margin: 5px auto;
 
-    background-color: $p4;
+    background-color: $p5;
     border-radius: 5px;
 
     -webkit-transition: all 0.3s ease-in-out;
@@ -230,6 +230,23 @@
       text-align: left;
       color: $white;
     }
+  }
+
+  .float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 15px;
+    right: 15px;
+
+    background-color: $p6;
+    border-radius: 50%;
+    box-shadow: 1px 7px 6px -3px rgba(74,74,74,0.75);
+    z-index: 2;
   }
 }
 
