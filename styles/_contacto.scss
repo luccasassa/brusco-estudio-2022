@@ -1,0 +1,281 @@
+.contacto__hero {
+  height: 92.4vh;
+  width: 100%;
+  background-color: $p7;
+  display: flex;
+  .contacto__hero--texts {
+    margin: auto auto 3% auto;
+    width: fit-content;
+    h1 {
+      font-family: 'DM Serif Display';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 131.01px;
+      line-height: 180px;
+      margin-bottom: -15px;
+    }
+  }
+  .contacto__hero--texts--text {
+    width: 100%;
+    display: flex;
+    div {
+      margin-left: auto;
+      width: fit-content;
+      height: fit-content;
+    }
+    p {
+      //margin-left: auto;
+      font-family: 'DM Serif Display';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 51.28px;
+      line-height: 70px;
+      margin-top: -20px;
+    }
+  }
+}
+
+.contacto__form {
+  width: 90%;
+  height: fit-content;
+  margin: 60px auto 40px auto;
+  h2 {
+    font-family: $font4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56.408px;
+    line-height: 77px;
+  }
+  p {
+    font-family: $font2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.5066px;
+    line-height: 27px;
+    margin-bottom: 32px;
+  }
+  .contacto__form--form {
+    .input-text-email {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      input {
+        width: 47%;
+        height: 70px;
+        padding-left: 30px;
+        font-family: $font2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26.971px;
+        line-height: 31px;
+        border: 2px solid $p7;
+      }
+    }
+    .input-textarea {
+      width: 100%;
+      textarea {
+        border: 2px solid $p7;
+        margin-top: 2%;
+        width: 98%;
+        height: 415px;
+        padding: 30px 0 0 30px;
+        font-family: $font2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26.971px;
+        line-height: 31px;
+        resize: none;
+      }
+    }
+    .input-button {
+      margin-top: 2%;
+      display: flex;
+      input {
+        border: 2px solid $p7;
+        background-color: white;
+        font-family: $font2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26.971px;
+        line-height: 31px;
+        padding: 14px 40px 14px 40px;
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+.contacto-socialmedia {
+  margin-bottom: 30px;
+  width: 100%;
+  .socials {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    a {
+      display: flex;
+      svg {
+        height: 60px;
+        width: 60px;
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 830px) {
+  .contacto__hero {
+    .contacto__hero--texts {
+      margin: auto;
+      h1 {
+        font-size: 51.532px;
+        line-height: 71px;
+        margin-bottom: 5px;
+      }
+    }
+    .contacto__hero--texts--text {
+      p {
+        font-size: 20.1706px;
+        line-height: 28px;
+        margin-top: -5px;
+      }
+    }
+  }
+
+  .contacto__form {
+    height: fit-content;
+    margin: 40px auto 40px auto;
+    h2 {
+      font-size: 26.0217px;
+      line-height: 36px;
+    }
+    p {
+      font-size: 10.8439px;
+      line-height: 12px;
+      margin-bottom: 0;
+    }
+    .contacto__form--form {
+      .input-text-email {
+        width: 94.5%;
+        display: flex;
+        flex-direction: column;
+        input {
+          margin-top: 15px;
+          width: 100%;
+          height: 32px;
+          padding-left: 10px;
+          font-size: 12.442px;
+          line-height: 14px;
+        }
+      }
+      .input-textarea {
+        width: 100%;
+        textarea {
+          margin-top: 4%;
+          width: 94.5%;
+          height: 190px;
+          padding: 10px 0 0 10px;
+          font-size: 12.442px;
+          line-height: 14px;
+          resize: none;
+        }
+      }
+      .input-button {
+        margin-top: 6%;
+        display: flex;
+        width: 98%;
+        input {
+          font-size: 12.442px;
+          line-height: 14px;
+          padding: 6px 17px 6px 17px;
+        }
+      }
+    }
+  }
+
+  .contacto-socialmedia {
+    .socials {
+      width: 90%;
+      a {
+        width: 25px;
+        height: 25px;
+        svg {
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .contacto__hero {
+    .contacto__hero--texts {
+      h1 {
+        font-size: 90px;
+        line-height: 115px;
+        margin-bottom: -10px;
+      }
+    }
+    .contacto__hero--texts--text {
+      p {
+        font-size: 35px;
+        line-height: 50px;
+        margin-top: -15px;
+      }
+    }
+  }
+
+  .contacto__form {
+    height: fit-content;
+    margin: 40px auto 40px auto;
+    h2 {
+      font-size: 41px;
+      line-height: 56px;
+    }
+    p {
+      font-size: 17.8439px;
+      line-height: 22px;
+      margin-bottom: 0;
+    }
+    .contacto__form--form {
+      .input-text-email {
+        width: 94.5%;
+        display: flex;
+        flex-direction: column;
+        input {
+          margin-top: 15px;
+          width: 100%;
+          height: 32px;
+          padding-left: 10px;
+          font-size: 18.442px;
+          line-height: 14px;
+        }
+      }
+      .input-textarea {
+        width: 100%;
+        textarea {
+          margin-top: 4%;
+          width: 94.5%;
+          height: 190px;
+          padding: 10px 0 0 10px;
+          font-size: 18.442px;
+          line-height: 14px;
+          resize: none;
+          padding: 10px 0 0 10px;
+        }
+      }
+      .input-button {
+        margin-top: 6%;
+        display: flex;
+        width: 96%;
+        input {
+          font-size: 18.442px;
+          line-height: 14px;
+          padding: 6px 17px 6px 17px;
+        }
+      }
+    }
+  }
+}
