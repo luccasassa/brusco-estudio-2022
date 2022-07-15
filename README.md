@@ -1,1 +1,0 @@
-# brusco-estudio-2022
