@@ -4,7 +4,7 @@
   //---------------------------------------------------NAVBAR
 
   nav {
-    padding: 5px 1rem;
+    padding: 0 1rem;
   }
 
   .nav-branding img {
@@ -16,8 +16,8 @@
   .nav-menu {
     position: fixed;
     left: 100%;
-    top: 0;
-    height: 100%;
+    bottom: 0;
+    height: 90vh;
     z-index: 9;
 
     width: 100%;
@@ -25,10 +25,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
 
     background-color: $white;
-    /* background-color: #fcfcfc; */
+    // background-color: #ddd;
     transition: 0.5s ease;
   }
 
@@ -38,23 +37,13 @@
     transition: 0.7s ease;
   }
 
-  .nav-menu.active::before {
-    box-shadow: -20px 0 20px -20px rgba(0, 0, 0, 0.56) inset;
-    content: ' ';
-    height: 100%;
-    left: -20px;
-    position: absolute;
-    top: 0;
-    width: 20px;
-  }
-
   .nav-menu-list {
-    margin: 100px auto;
+    margin: auto 0 auto 1rem;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    gap: 2.5rem;
   }
 
   .nav-item {
@@ -62,7 +51,7 @@
   }
 
   .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: auto;
   }
 
@@ -71,7 +60,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+
+    a {
+      font-family: $font2;
+      font-size: 9px;
+      color: $p6;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   .hamburger {
