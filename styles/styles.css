@@ -666,6 +666,7 @@ footer {
     width: 59.71px;
   }
   .instagram__slider {
+    display: none;
     width: 100%;
     height: 70px;
     margin: 100px 0 30px 0;
@@ -690,6 +691,7 @@ footer {
     margin-top: 6%;
   }
   .socialmedia {
+    display: none;
     z-index: -10;
     margin: 6.5% 0 6.5% 0;
   }
@@ -1152,6 +1154,12 @@ footer {
     width: -moz-fit-content;
     width: fit-content;
     padding: 2px 4px 2px 4px;
+  }
+  .socialmedia {
+    display: none;
+  }
+  .instagram__slider {
+    display: none;
   }
 }
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
