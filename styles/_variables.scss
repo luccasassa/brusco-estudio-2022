@@ -42,6 +42,21 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: $p6;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $p4;
+}
+::-webkit-scrollbar-track {
+  background: inherit;
+}
+
 [id] {
   scroll-margin-top: 4.5em;
 }
