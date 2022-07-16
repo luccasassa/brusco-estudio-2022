@@ -76,8 +76,8 @@
       }
     }
   }
-  .swiper-pagination {
-    font-family: $font2;
+  .swiper {
+    display: none;
   }
 }
 
@@ -146,9 +146,10 @@
     }
 
     .swiper-slide img {
+      background-color: $p7;
       display: block;
       width: 100%;
-      height: 100%;
+      height: 60%;
       object-fit: cover;
     }
 

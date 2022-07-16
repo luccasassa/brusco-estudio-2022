@@ -665,20 +665,20 @@ footer {
     height: 19.52px;
     width: 59.71px;
   }
-  .instagram__slider {
-    display: none;
+  .cta__socialMediaArea .instagram__slider {
+    display: block;
     width: 100%;
     height: 70px;
     margin: 100px 0 30px 0;
     position: relative;
     background-color: #d9d9d9;
   }
-  .instagram__slider .swiper {
+  .cta__socialMediaArea .instagram__slider .swiper {
     position: absolute;
     width: 100%;
     height: 100%;
   }
-  .instagram__slider .swiper-slide {
+  .cta__socialMediaArea .instagram__slider .swiper-slide {
     width: 167px;
     height: 167px;
     text-align: center;
@@ -686,19 +686,17 @@ footer {
     font-size: 18px;
     background-color: #d9d9d9;
   }
-  .instagram__slider .instagram__banner img {
+  .cta__socialMediaArea .instagram__slider .instagram__banner img {
     width: 150px;
     margin-top: 6%;
   }
-  .socialmedia {
-    display: none;
-    z-index: -10;
-    margin: 6.5% 0 6.5% 0;
+  .cta__socialMediaArea .socialmedia {
+    display: block;
   }
-  .socialmedia .socials {
+  .cta__socialMediaArea .socialmedia .socials {
     width: 80%;
   }
-  .socialmedia .socials a svg {
+  .cta__socialMediaArea .socialmedia .socials a svg {
     max-width: 30px;
     max-height: 30px;
   }
@@ -1601,8 +1599,8 @@ footer {
   width: 32%;
   background-color: #d9d9d9;
 }
-.proyecto__info .swiper-pagination {
-  font-family: "Helvetica", sans-serif;
+.proyecto__info .swiper {
+  display: none;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 830px) {
@@ -1658,9 +1656,10 @@ footer {
     align-items: center;
   }
   .proyecto__info .swiper-slide img {
+    background-color: #aaa;
     display: block;
     width: 100%;
-    height: 100%;
+    height: 60%;
     -o-object-fit: cover;
        object-fit: cover;
   }
