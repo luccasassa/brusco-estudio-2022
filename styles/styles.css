@@ -47,7 +47,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  border-bottom: 1px solid rgba(153, 153, 153, 0.1);
   z-index: 99;
 }
 
@@ -239,13 +238,9 @@ footer {
   display: none;
 }
 
-.my-float {
-  margin-top: 16px;
-}
-
 .myVerticalSwiper {
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
 }
 
 .hero {
@@ -253,7 +248,7 @@ footer {
   background-color: #d9d9d9;
   background-image: url("../assets/img/banners/Banner_Muchomasquedisenio.jpg");
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -262,7 +257,7 @@ footer {
 .servicios {
   display: flex;
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
   background-color: #d9d9d9;
   background-image: url("../assets/img/banners/Banner_Diseniodepackaging.jpg");
   background-position: center;
@@ -273,7 +268,7 @@ footer {
 .proyectos {
   display: flex;
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
   background-color: #d9d9d9;
   background-image: url("../assets/img/banners/Banner_DisenioEditorial.jpg");
   background-position: center;
@@ -284,7 +279,7 @@ footer {
 .el-estudio {
   display: flex;
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
   background-color: #d9d9d9;
   background-image: url("../assets/img/banners/Banner_IdentidadYBranding.jpg");
   background-position: center;
@@ -295,7 +290,7 @@ footer {
 .contactanos {
   display: flex;
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
   background-color: #d9d9d9;
   background-image: url("../assets/img/banners/Banner_MarketingDigital.jpg");
   background-position: center;
@@ -729,11 +724,10 @@ footer {
 }
 .myVerticalSwiper {
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
 }
 
 .servicios__hero {
-  height: 92.4vh;
   width: 100%;
   background-color: #aaa;
   display: flex;
@@ -783,7 +777,7 @@ footer {
   background-image: url("../assets/img/banners/Banner_Diseniodepackaging.jpg");
   background-color: #d9d9d9;
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
   display: flex;
   background-position: center;
   background-size: cover;
@@ -794,7 +788,7 @@ footer {
   background-image: url("../assets/img/banners/Banner_IdentidadYBranding.jpg");
   background-color: #d9d9d9;
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
   display: flex;
   background-position: center;
   background-size: cover;
@@ -805,7 +799,7 @@ footer {
   background-image: url("../assets/img/banners/Banner_DisenioEditorial.jpg");
   background-color: #d9d9d9;
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
   display: flex;
   background-position: center;
   background-size: cover;
@@ -816,7 +810,7 @@ footer {
   background-image: url("../assets/img/banners/Banner_MarketingDigital.jpg");
   background-color: #d9d9d9;
   width: 100%;
-  height: 92.4vh;
+  height: 90vh;
   display: flex;
   background-position: center;
   background-size: cover;
@@ -2641,6 +2635,10 @@ footer {
     border-radius: 50%;
     box-shadow: 1px 7px 6px -3px rgba(74, 74, 74, 0.75);
     z-index: 2;
+  }
+  .myVerticalSwiper {
+    width: 100%;
+    height: 100%;
   }
 }
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
