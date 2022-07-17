@@ -2,6 +2,18 @@ const d = document;
 const hamburger = d.querySelector('.hamburger');
 const navMenu = d.querySelector('.nav-menu');
 const main = d.querySelector('main');
+const load = d.querySelector(".loader-wrapper")
+const body = d.querySelector("body")
+
+/* LOADER */
+
+window.setTimeout(() => {
+  body.classList.remove('preload')
+  // load.style.display = 'none'
+  load.style.opacity = '0'
+},3000)
+
+/* HAMBURGER MENU */
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -19,6 +31,8 @@ main.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 });
+
+/* MANUAL SWIPER-SLIDE */
 
 var screenWidth = screen.width;
 console.log(screenWidth);
