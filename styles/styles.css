@@ -106,10 +106,6 @@ a {
   transition: 0.3s;
 }
 
-.nav-link:hover {
-  color: #ffd73a;
-}
-
 /**********************************/
 .hamburger {
   display: none;
