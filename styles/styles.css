@@ -25,17 +25,13 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #575756;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
   background: #3c3c3b;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -43,7 +39,7 @@ html {
 }
 
 [id] {
-  scroll-margin-top: 4.5em;
+  scroll-margin-top: 10vh;
 }
 
 .estudio__brands,
@@ -55,7 +51,6 @@ html {
   overflow: hidden;
 }
 
-/* CAMBIAR ESTILOS OCULTO MANUALMENTE CON WIDTH 0 IMAGEN OCULTA, CAJAS INVISIBLES */
 .loader-wrapper {
   position: fixed;
   width: 100%;
@@ -68,95 +63,70 @@ html {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  transition: 0.5s;
   z-index: 9999;
+  -webkit-animation: body 2.1s ease-in;
+          animation: body 2.1s ease-in;
+}
+@-webkit-keyframes body {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes body {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 .loader-wrapper img {
   width: 300px;
   pointer-events: none;
 }
 .loader-wrapper .loader {
+  position: relative;
   width: 300px;
   height: 1vh;
-  background-color: #fcfcfc;
+  background-color: #ccc;
   border-radius: 20px;
 }
 .loader-wrapper .loader .child-loader {
   height: 1vh;
   background-color: #3c3c3b;
   border-radius: 20px;
-  -webkit-animation: loader 3s linear normal;
-          animation: loader 3s linear normal;
-  transition: 1s;
+  -webkit-animation: loader 1.8s linear;
+          animation: loader 1.8s linear;
 }
 @-webkit-keyframes loader {
   0% {
-    width: 0px;
-  }
-  10% {
-    width: 30px;
-  }
-  20% {
-    width: 60px;
-  }
-  30% {
-    width: 90px;
-  }
-  40% {
-    width: 120px;
-  }
-  50% {
-    width: 150px;
-  }
-  60% {
-    width: 180px;
-  }
-  70% {
-    width: 210px;
-  }
-  80% {
-    width: 240px;
-  }
-  90% {
-    width: 270px;
+    width: 1%;
   }
   100% {
-    width: 300px;
+    width: 100%;
   }
 }
 @keyframes loader {
   0% {
-    width: 0px;
-  }
-  10% {
-    width: 30px;
-  }
-  20% {
-    width: 60px;
-  }
-  30% {
-    width: 90px;
-  }
-  40% {
-    width: 120px;
-  }
-  50% {
-    width: 150px;
-  }
-  60% {
-    width: 180px;
-  }
-  70% {
-    width: 210px;
-  }
-  80% {
-    width: 240px;
-  }
-  90% {
-    width: 270px;
+    width: 1%;
   }
   100% {
-    width: 300px;
+    width: 100%;
   }
 }
 
@@ -2712,6 +2682,10 @@ footer {
 .bar:nth-child(3) {
     width: 15px;
     margin-right: 0;
+  }
+  /****************/
+  .loader-wrapper img, .loader-wrapper .loader {
+    width: 150px;
   }
   /****************/
   footer {

@@ -10,7 +10,7 @@ const body = d.querySelector('body');
 window.setTimeout(() => {
   body.classList.remove('preload');
   load.style.display = 'none';
-}, 100);
+}, 2000);
 
 /* HAMBURGER MENU */
 
