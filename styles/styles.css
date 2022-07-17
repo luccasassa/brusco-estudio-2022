@@ -68,7 +68,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  transition: 500ms;
+  transition: 0.5s;
   z-index: 9999;
 }
 .loader-wrapper img {

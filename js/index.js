@@ -9,8 +9,7 @@ const body = d.querySelector("body")
 
 window.setTimeout(() => {
   body.classList.remove('preload')
-  // load.style.display = 'none'
-  load.style.opacity = '0'
+  load.style.display = 'none'
 },3000)
 
 /* HAMBURGER MENU */
