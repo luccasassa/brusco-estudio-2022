@@ -6,7 +6,7 @@
 .servicios__hero {
   height: 90vh;
   width: 100%;
-  background-color: $p7;
+  background-color: $p8;
   display: flex;
   .servicios__hero--texts {
     margin-left: auto;
@@ -89,7 +89,7 @@
 .left__text {
   height: 100%;
   width: 45%;
-  background-color: $p7;
+  background-color: $p8;
   margin-left: 5%;
   .left__texts {
     height: 85%;
@@ -135,18 +135,23 @@
     display: flex;
     button {
       margin: auto 0 auto auto;
-      padding: 10px 20px 10px 20px;
       background-color: $p7;
-      border: 2px solid black;
-      a {
-        font-family: $font2;
-        text-decoration: none;
-        color: black;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18.8797px;
-        line-height: 22px;
-      }
+      cursor: pointer;
+      font-family: $font2;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15.2836px;
+      line-height: 18px;
+      text-transform: uppercase;
+      border: 0;
+      background-color: rgba(0, 0, 0, 0);
+      box-shadow: 0px 9px 13px -3px rgba(0, 0, 0, 0.25);
+    }
+    a {
+      text-decoration: none;
+      color: $black;
+      background-color: $p1;
+      margin: auto;
     }
   }
 }
@@ -166,7 +171,7 @@
     font-weight: 400;
     font-size: 22.3277px;
     line-height: 26px;
-    background-color: $p7;
+    background-color: $p8;
     width: fit-content;
     padding: 4px 14px 3px 14px;
   }
@@ -181,7 +186,7 @@
 .right__text {
   height: 100%;
   width: 45%;
-  background-color: $p7;
+  background-color: $p8;
   margin-right: 5%;
   .right__texts {
     height: 85%;
@@ -227,18 +232,23 @@
     display: flex;
     button {
       margin: auto 0 auto auto;
-      padding: 10px 20px 10px 20px;
       background-color: $p7;
-      border: 2px solid black;
-      a {
-        font-family: $font2;
-        text-decoration: none;
-        color: black;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18.8797px;
-        line-height: 22px;
-      }
+      cursor: pointer;
+      font-family: $font2;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15.2836px;
+      line-height: 18px;
+      text-transform: uppercase;
+      border: 0;
+      background-color: rgba(0, 0, 0, 0);
+      box-shadow: 0px 9px 13px -3px rgba(0, 0, 0, 0.25);
+    }
+    a {
+      text-decoration: none;
+      color: $black;
+      background-color: $p1;
+      margin: auto;
     }
   }
 }
@@ -259,7 +269,7 @@
     font-weight: 400;
     font-size: 22.3277px;
     line-height: 26px;
-    background-color: $p7;
+    background-color: $p8;
     width: fit-content;
     padding: 4px 14px 3px 14px;
   }
@@ -341,7 +351,7 @@
       font-weight: 400;
       font-size: 11.0896px;
       line-height: 13px;
-      background-color: $p8;
+      background-color: $p2;
       width: fit-content;
       padding: 2px 4px 2px 4px;
     }
@@ -398,7 +408,7 @@
       font-weight: 400;
       font-size: 11.0896px;
       line-height: 13px;
-      background-color: $p8;
+      background-color: $p2;
       width: fit-content;
       padding: 2px 4px 2px 4px;
     }

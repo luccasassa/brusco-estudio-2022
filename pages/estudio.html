@@ -78,7 +78,9 @@
           <li class="nav-item">
             <a href="./proyectos.html" class="nav-link">PROYECTOS</a>
           </li>
-          <li class="nav-item" style="font-weight: bold;"><a href="#" class="nav-link">EL ESTUDIO</a></li>
+          <li class="nav-item" style="font-weight: bold">
+            <a href="#" class="nav-link">EL ESTUDIO</a>
+          </li>
           <li class="nav-item">
             <a href="./contacto.html" class="nav-link">CONTACTO</a>
           </li>
@@ -149,7 +151,10 @@
       <div class="estudio__presentation" id="estudio-presentacion">
         <div class="estudio__presentation--container">
           <div class="estudio__presentation--img">
-            <img src="../assets/img/perfil/BruscoEstudio_MariAna.jpg" alt="Perfil María Ana Brusco" />
+            <img
+              src="../assets/img/perfil/BruscoEstudio_MariAna.jpg"
+              alt="Perfil María Ana Brusco"
+            />
           </div>
           <div class="estudio__presentation--text">
             <h2>¡Hola!</h2>
@@ -220,6 +225,7 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="swiper-slide testimony2">
                   <div class="swiper-slide--info">
                     <div class="client__testimony">
@@ -237,6 +243,7 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="swiper-slide testimony3">
                   <div class="swiper-slide--info">
                     <div class="client__testimony">
@@ -255,6 +262,7 @@
                   </div>
                 </div>
               </div>
+              <div class="swiper-pagination"></div>
             </div>
           </div>
         </div>
@@ -543,8 +551,11 @@
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper('.mySwiper', {
         loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+        },
         autoplay: {
           pauseOnMouseEnter: true,
           disableOnInteraction: false,
@@ -554,9 +565,12 @@
 
       //import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
 
-      var swiper = new Swiper(".mySwiperBrands", {
+      var swiper = new Swiper('.mySwiperBrands', {
         slidesPerView: 4.5,
         breakpoints: {
+          0: {
+            slidesPerView: 5.5,
+          },
           830: {
             slidesPerView: 5,
           },

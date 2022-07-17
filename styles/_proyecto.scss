@@ -1,11 +1,11 @@
 .proyecto__hero {
   height: 92.4vh;
   width: 100%;
-  background-color: $p8;
+  background-color: $p7;
   display: flex;
   .proyecto__hero--texts {
     margin: 0 5% 0 auto;
-    background-color: $p7;
+    background-color: $p8;
     width: 45%;
     height: 100%;
     display: flex;
@@ -30,6 +30,31 @@
       }
     }
   }
+}
+
+.proyecto__hero--banding-uno {
+  background-image: url('../assets/img/banners/Banner_Diseniodepackaging.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.proyecto__hero--banding-dos {
+  background-image: url('../assets/img/banners/Banner_DisenioEditorial.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.proyecto__hero--banding-tres {
+  background-image: url('../assets/img/banners/Banner_DisenioEditorial.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.proyecto__hero--banding-cuatro {
+  background-image: url('../assets/img/banners/Banner_DisenioEditorial.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .proyecto__info {
@@ -106,14 +131,19 @@
     height: 70vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     .proyecto__info--info {
       height: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
       h2 {
+        margin: 0;
         font-size: 26.0217px;
         line-height: 36px;
       }
       p {
+        margin: 0;
         font-size: 10.8439px;
         line-height: 12px;
       }
@@ -123,8 +153,9 @@
     }
 
     .swiper {
+      display: block;
       width: 100%;
-      height: 65%;
+      height: 80%;
     }
 
     .swiper-slide {
@@ -149,7 +180,7 @@
       background-color: $p7;
       display: block;
       width: 100%;
-      height: 60%;
+      height: 55%;
       object-fit: cover;
     }
 

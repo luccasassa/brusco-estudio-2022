@@ -2,15 +2,15 @@ const d = document;
 const hamburger = d.querySelector('.hamburger');
 const navMenu = d.querySelector('.nav-menu');
 const main = d.querySelector('main');
-const load = d.querySelector(".loader-wrapper")
-const body = d.querySelector("body")
+const load = d.querySelector('.loader-wrapper');
+const body = d.querySelector('body');
 
 /* LOADER */
 
 window.setTimeout(() => {
-  body.classList.remove('preload')
-  load.style.display = 'none'
-},3000)
+  body.classList.remove('preload');
+  load.style.display = 'none';
+}, 100);
 
 /* HAMBURGER MENU */
 
