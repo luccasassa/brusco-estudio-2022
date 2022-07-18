@@ -16,12 +16,25 @@
   .servicios__hero--texts {
     margin: auto auto 3% auto;
     width: fit-content;
-    h1 {
-      font-family: $font4;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 131.01px;
-      line-height: 180px;
+    .hero--title {
+      width: fit-content;
+      margin: auto;
+      margin-bottom: 20px;
+      .t1 {
+        background-color: $p2;
+        width: fit-content;
+        margin-left: 40px;
+        height: 70px;
+        p {
+          margin-left: -40px;
+          font-family: $font4;
+          font-weight: 400;
+          font-size: 131.01px;
+          line-height: 20px;
+          //line-height: 40px;
+          padding-right: 30px;
+        }
+      }
     }
   }
   .servicios__hero--texts--text {
@@ -51,6 +64,7 @@
     font-weight: 400;
     font-size: 22.3375px;
     line-height: 26px;
+    box-shadow: 0px 9px 13px -3px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -106,13 +120,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
   .left__texts {
     height: fit-content;
     width: fit-content;
     width: 65%;
     margin: auto;
-    .left__text--title {
-      .t1 {
+
+    .left--title {
+      margin: auto;
+      .t1n {
         text-transform: uppercase;
         font-family: $font2;
         font-style: normal;
@@ -120,21 +137,32 @@
         font-size: 62.0856px;
         line-height: 76px;
       }
-      .t2 {
-        margin-top: -40px;
-        font-family: $font4;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 90px;
-        line-height: 123px;
+      .t1 {
+        margin-top: 10px;
+        background-color: $p2;
+        width: fit-content;
+        margin-left: 40px;
+        height: 75px;
+        .t1t {
+          margin-left: -40px;
+          font-family: $font4;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 90px;
+          line-height: 30px;
+        }
       }
     }
+
     .left__text--p {
       font-family: $font2;
       font-style: normal;
       font-weight: 400;
       font-size: 22.3277px;
       line-height: 26px;
+      .left__text--p--bold {
+        font-weight: 600;
+      }
       p {
         margin-top: 30px;
       }
@@ -168,7 +196,7 @@
 }
 .right__labels {
   height: 100%;
-  width: 47%;
+  width: 50%;
   display: flex;
   div {
     width: fit-content;
@@ -182,7 +210,7 @@
     font-weight: 400;
     font-size: 22.3277px;
     line-height: 26px;
-    background-color: $p8;
+    background-color: $p2;
     width: fit-content;
     padding: 4px 14px 3px 14px;
   }
@@ -207,8 +235,9 @@
     width: fit-content;
     width: 65%;
     margin: auto;
-    .right__text--title {
-      .t1 {
+    .right--title {
+      margin: auto;
+      .t1n {
         text-transform: uppercase;
         font-family: $font2;
         font-style: normal;
@@ -216,13 +245,20 @@
         font-size: 62.0856px;
         line-height: 76px;
       }
-      .t2 {
-        margin-top: -40px;
-        font-family: $font4;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 90px;
-        line-height: 123px;
+      .t1 {
+        margin-top: 10px;
+        background-color: $p2;
+        width: fit-content;
+        margin-left: 40px;
+        height: 75px;
+        .t1t {
+          margin-left: -40px;
+          font-family: $font4;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 90px;
+          line-height: 30px;
+        }
       }
     }
     .right__text--p {
@@ -231,6 +267,9 @@
       font-weight: 400;
       font-size: 22.3277px;
       line-height: 26px;
+      .right__text--p--bold {
+        font-weight: 600;
+      }
       p {
         margin-top: 30px;
       }
@@ -264,7 +303,7 @@
 }
 .left__labels {
   height: 100%;
-  width: 47%;
+  width: 50%;
   margin-left: auto;
   display: flex;
   div {
@@ -279,7 +318,7 @@
     font-weight: 400;
     font-size: 22.3277px;
     line-height: 26px;
-    background-color: $p8;
+    background-color: $p2;
     width: fit-content;
     padding: 4px 14px 3px 14px;
   }
@@ -294,10 +333,25 @@
   .servicios__hero {
     .servicios__hero--texts {
       margin: auto;
-      h1 {
-        font-size: 51.532px;
-        line-height: 71px;
-        margin-bottom: 5px;
+      .hero--title {
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 20px;
+        .t1 {
+          background-color: $p2;
+          width: fit-content;
+          margin-left: 20px;
+          height: 40px;
+          p {
+            margin-left: -20px;
+            font-family: $font4;
+            font-weight: 400;
+            font-size: 51.739px;
+            line-height: 20px;
+            //line-height: 40px;
+            padding-right: 30px;
+          }
+        }
       }
     }
     .servicios__hero--texts--text {
@@ -315,22 +369,38 @@
   }
 
   .left__text {
-    height: 75%;
+    height: 80%;
     width: 100%;
     margin: auto 0 0 0;
     .left__texts {
       .left__texts--texts {
         height: fit-content;
       }
-      .left__text--title {
-        .t1 {
+      .left--title {
+        margin: auto;
+        .t1n {
+          text-transform: uppercase;
+          font-family: $font2;
+          font-style: normal;
+          font-weight: 200;
           font-size: 35.6472px;
-          line-height: 44px;
+          line-height: 76px;
         }
-        .t2 {
+        .t1 {
           margin-top: -20px;
-          font-size: 51.6746px;
-          line-height: 71px;
+          margin-bottom: 5px;
+          background-color: $p2;
+          width: fit-content;
+          margin-left: 40px;
+          height: 45px;
+          .t1t {
+            margin-left: -40px;
+            font-family: $font4;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 51.6746px;
+            line-height: 30px;
+          }
         }
       }
       .left__text--p {
@@ -371,22 +441,38 @@
   }
 
   .right__text {
-    height: 75%;
+    height: 80%;
     width: 100%;
     margin: auto 0 0 0;
     .right__texts {
       .right__texts--texts {
         height: fit-content;
       }
-      .right__text--title {
-        .t1 {
+      .right--title {
+        margin: auto;
+        .t1n {
+          text-transform: uppercase;
+          font-family: $font2;
+          font-style: normal;
+          font-weight: 200;
           font-size: 35.6472px;
-          line-height: 44px;
+          line-height: 76px;
         }
-        .t2 {
+        .t1 {
           margin-top: -20px;
-          font-size: 51.6746px;
-          line-height: 71px;
+          margin-bottom: 5px;
+          background-color: $p2;
+          width: fit-content;
+          margin-left: 40px;
+          height: 45px;
+          .t1t {
+            margin-left: -40px;
+            font-family: $font4;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 51.6746px;
+            line-height: 30px;
+          }
         }
       }
       .right__text--p {
