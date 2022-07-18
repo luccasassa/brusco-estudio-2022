@@ -130,16 +130,13 @@ html {
   }
 }
 
-.float {
-  display: none;
-}
-
 nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   height: 10vh;
   padding: 0 3rem;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -335,10 +332,12 @@ footer {
 
 .myVerticalSwiper {
   width: 100%;
+  margin: 0;
   height: 90vh;
 }
 
 .hero {
+  margin: 0;
   display: flex;
   background-color: #fcfcfc;
   background-image: url("../assets/img/banners/Banner_Muchomasquedisenio.jpg");
@@ -479,7 +478,7 @@ footer {
 
 .left--textArea {
   width: 100%;
-  height: 90%;
+  height: 80%;
   display: flex;
 }
 .left--textArea .left--text {
@@ -518,7 +517,7 @@ footer {
 
 .left--cta {
   width: 100%;
-  height: 10%;
+  height: 20%;
   display: flex;
 }
 .left--cta a {
@@ -553,7 +552,7 @@ footer {
 
 .right--textArea {
   width: 100%;
-  height: 90%;
+  height: 80%;
   display: flex;
 }
 .right--textArea .right--text {
@@ -592,7 +591,7 @@ footer {
 
 .right--cta {
   width: 100%;
-  height: 10%;
+  height: 20%;
   display: flex;
 }
 .right--cta a {
@@ -694,11 +693,9 @@ footer {
     line-height: 16px;
   }
   .hero__right--cta button {
-    font-size: 15.2836px;
-    line-height: 18px;
-    height: 35px;
-    width: 105px;
-    background-color: rgba(0, 0, 0, 0);
+    font-size: 14.6324px;
+    line-height: 17px;
+    padding: 9px 17px;
   }
   .left {
     width: 100%;
@@ -824,6 +821,10 @@ footer {
     font-size: 25px;
   }
 }
+.float {
+  display: none;
+}
+
 .myVerticalSwiper {
   width: 100%;
   height: 92.4vh;
@@ -929,15 +930,19 @@ footer {
   width: 45%;
   background-color: #fcfcfc;
   margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .left__text .left__texts {
-  height: 85%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   width: 65%;
   margin: auto;
-  display: flex;
-}
-.left__text .left__texts .left__texts--texts {
-  margin: auto auto 5% auto;
 }
 .left__text .left__texts .left__text--title .t1 {
   text-transform: uppercase;
@@ -967,19 +972,18 @@ footer {
 }
 .left__text .left__cta-area {
   margin: auto;
-  width: 65%;
-  height: 15%;
   display: flex;
 }
 .left__text .left__cta-area button {
+  padding: 12px 23px;
   margin: auto 0 auto auto;
   background-color: #aaa;
   cursor: pointer;
   font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15.2836px;
-  line-height: 18px;
+  font-size: 22.3336px;
+  line-height: 26px;
   text-transform: uppercase;
   border: 0;
   background-color: rgba(0, 0, 0, 0);
@@ -1033,15 +1037,19 @@ footer {
   width: 45%;
   background-color: #fcfcfc;
   margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .right__text .right__texts {
-  height: 85%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   width: 65%;
   margin: auto;
-  display: flex;
-}
-.right__text .right__texts .right__texts--texts {
-  margin: auto auto 5% auto;
 }
 .right__text .right__texts .right__text--title .t1 {
   text-transform: uppercase;
@@ -1071,19 +1079,18 @@ footer {
 }
 .right__text .right__cta-area {
   margin: auto;
-  width: 65%;
-  height: 15%;
   display: flex;
 }
 .right__text .right__cta-area button {
+  padding: 12px 23px;
   margin: auto 0 auto auto;
   background-color: #aaa;
   cursor: pointer;
   font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15.2836px;
-  line-height: 18px;
+  font-size: 22.3336px;
+  line-height: 26px;
   text-transform: uppercase;
   border: 0;
   background-color: rgba(0, 0, 0, 0);
@@ -1143,6 +1150,11 @@ footer {
     line-height: 28px;
     margin-top: -5px;
   }
+  .servicios__hero a {
+    font-size: 14.6324px;
+    line-height: 17px;
+    padding: 9px 17px;
+  }
   .left__text {
     height: 75%;
     width: 100%;
@@ -1171,8 +1183,6 @@ footer {
   }
   .left__text .left__cta-area button {
     padding: 6px 11px 6px 11px;
-  }
-  .left__text .left__cta-area button a {
     font-size: 10.84px;
     line-height: 12px;
   }
@@ -1225,8 +1235,6 @@ footer {
   }
   .right__text .right__cta-area button {
     padding: 6px 11px 6px 11px;
-  }
-  .right__text .right__cta-area button a {
     font-size: 10.84px;
     line-height: 12px;
   }
@@ -1335,6 +1343,10 @@ footer {
     padding: 3px 12px 3px 12px;
   }
 }
+.float {
+  display: none;
+}
+
 .proyectos__hero {
   height: 92.4vh;
   width: 100%;
@@ -1499,6 +1511,34 @@ footer {
   text-align: center;
 }
 
+.instagram__slider {
+  width: 100%;
+  height: 167px;
+  margin: 30px 0 30px 0;
+  background-color: #fcfcfc;
+}
+.instagram__slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+.instagram__slider .swiper-slide {
+  width: 167px;
+  height: 167px;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  background-color: #fcfcfc;
+}
+.instagram__slider .instagram__banner {
+  display: flex;
+  margin-top: -65px;
+}
+.instagram__slider .instagram__banner img {
+  z-index: 2;
+  margin: auto;
+  min-width: 90px;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 766px) {
   .proyectos__hero .proyectos__hero--texts {
     margin: auto;
@@ -1512,6 +1552,11 @@ footer {
     font-size: 20.1706px;
     line-height: 28px;
     margin-top: -5px;
+  }
+  .proyectos__hero a {
+    font-size: 14.6324px;
+    line-height: 17px;
+    padding: 9px 17px;
   }
   .proyectos__alls {
     height: 150vh;
@@ -1570,6 +1615,31 @@ footer {
   .proyectos__alls .proyectos__some-projects {
     height: 0%;
     display: none;
+  }
+  .cta__socialMediaArea .instagram__slider {
+    display: block;
+    width: 100%;
+    height: 70px;
+    margin: 100px 0 30px 0;
+    position: relative;
+    background-color: #fcfcfc;
+  }
+  .cta__socialMediaArea .instagram__slider .swiper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .cta__socialMediaArea .instagram__slider .swiper-slide {
+    width: 167px;
+    height: 167px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #fcfcfc;
+  }
+  .cta__socialMediaArea .instagram__slider .instagram__banner img {
+    width: 150px;
+    margin-top: 6%;
   }
 }
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
@@ -1630,6 +1700,10 @@ footer {
     width: 140px;
   }
 }
+.float {
+  display: none;
+}
+
 .proyecto__hero {
   height: 92.4vh;
   width: 100%;
@@ -2150,6 +2224,11 @@ footer {
     line-height: 28px;
     margin-top: -5px;
   }
+  .estudio__hero a {
+    font-size: 14.6324px;
+    line-height: 17px;
+    padding: 9px 17px;
+  }
   .estudio__presentation {
     height: 70vh;
   }
@@ -2350,6 +2429,10 @@ footer {
     font-size: 18px;
   }
 }
+.float {
+  display: none;
+}
+
 .contacto__hero {
   height: 92.4vh;
   width: 100%;
@@ -2510,6 +2593,11 @@ footer {
     font-size: 20.1706px;
     line-height: 28px;
     margin-top: -5px;
+  }
+  .contacto__hero a {
+    font-size: 14.6324px;
+    line-height: 17px;
+    padding: 9px 17px;
   }
   .contacto__form {
     height: -webkit-fit-content;
@@ -2721,7 +2809,8 @@ footer {
     margin-right: 0;
   }
   /****************/
-  .loader-wrapper img, .loader-wrapper .loader {
+  .loader-wrapper img,
+.loader-wrapper .loader {
     width: 150px;
   }
   /****************/
@@ -2828,7 +2917,7 @@ footer {
     height: 55px;
     bottom: 15px;
     right: 15px;
-    background-color: #575756;
+    background-color: #02c408;
     border-radius: 50%;
     box-shadow: 1px 7px 6px -3px rgba(74, 74, 74, 0.75);
     z-index: 2;

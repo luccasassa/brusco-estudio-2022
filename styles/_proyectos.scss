@@ -1,3 +1,6 @@
+.float {
+  display: none;
+}
 //------------------------------------------HERO PROJECTS
 .proyectos__hero {
   height: 92.4vh;
@@ -164,6 +167,35 @@
   }
 }
 
+//---------------------------------------------------INSTAGRAM SLIDERS
+.instagram__slider {
+  width: 100%;
+  height: 167px;
+  margin: 30px 0 30px 0;
+  background-color: $p8;
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    width: 167px;
+    height: 167px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: $p8;
+  }
+  .instagram__banner {
+    display: flex;
+    margin-top: -65px;
+    img {
+      z-index: 2;
+      margin: auto;
+      min-width: 90px;
+    }
+  }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 766px) {
   .proyectos__hero {
     .proyectos__hero--texts {
@@ -180,6 +212,11 @@
         line-height: 28px;
         margin-top: -5px;
       }
+    }
+    a {
+      font-size: 14.6324px;
+      line-height: 17px;
+      padding: 9px 17px;
     }
   }
 
@@ -249,6 +286,35 @@
     .proyectos__some-projects {
       height: 0%;
       display: none;
+    }
+  }
+  .cta__socialMediaArea {
+    .instagram__slider {
+      display: block;
+      width: 100%;
+      height: 70px;
+      margin: 100px 0 30px 0;
+      position: relative;
+      background-color: $p8;
+      .swiper {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        width: 167px;
+        height: 167px;
+        text-align: center;
+        justify-content: center;
+        font-size: 18px;
+        background-color: $p8;
+      }
+      .instagram__banner {
+        img {
+          width: 150px;
+          margin-top: 6%;
+        }
+      }
     }
   }
 }

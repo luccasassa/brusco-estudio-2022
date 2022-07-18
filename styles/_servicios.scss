@@ -1,3 +1,7 @@
+.float {
+  display: none;
+}
+
 .myVerticalSwiper {
   width: 100%;
   height: 92.4vh;
@@ -99,14 +103,14 @@
   width: 45%;
   background-color: $p8;
   margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   .left__texts {
-    height: 85%;
+    height: fit-content;
+    width: fit-content;
     width: 65%;
     margin: auto;
-    display: flex;
-    .left__texts--texts {
-      margin: auto auto 5% auto;
-    }
     .left__text--title {
       .t1 {
         text-transform: uppercase;
@@ -138,18 +142,17 @@
   }
   .left__cta-area {
     margin: auto;
-    width: 65%;
-    height: 15%;
     display: flex;
     button {
+      padding: 12px 23px;
       margin: auto 0 auto auto;
       background-color: $p7;
       cursor: pointer;
       font-family: $font2;
       font-style: normal;
       font-weight: 400;
-      font-size: 15.2836px;
-      line-height: 18px;
+      font-size: 22.3336px;
+      line-height: 26px;
       text-transform: uppercase;
       border: 0;
       background-color: rgba(0, 0, 0, 0);
@@ -196,14 +199,14 @@
   width: 45%;
   background-color: $p8;
   margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   .right__texts {
-    height: 85%;
+    height: fit-content;
+    width: fit-content;
     width: 65%;
     margin: auto;
-    display: flex;
-    .right__texts--texts {
-      margin: auto auto 5% auto;
-    }
     .right__text--title {
       .t1 {
         text-transform: uppercase;
@@ -235,18 +238,17 @@
   }
   .right__cta-area {
     margin: auto;
-    width: 65%;
-    height: 15%;
     display: flex;
     button {
+      padding: 12px 23px;
       margin: auto 0 auto auto;
       background-color: $p7;
       cursor: pointer;
       font-family: $font2;
       font-style: normal;
       font-weight: 400;
-      font-size: 15.2836px;
-      line-height: 18px;
+      font-size: 22.3336px;
+      line-height: 26px;
       text-transform: uppercase;
       border: 0;
       background-color: rgba(0, 0, 0, 0);
@@ -305,6 +307,11 @@
         margin-top: -5px;
       }
     }
+    a {
+      font-size: 14.6324px;
+      line-height: 17px;
+      padding: 9px 17px;
+    }
   }
 
   .left__text {
@@ -337,10 +344,8 @@
     .left__cta-area {
       button {
         padding: 6px 11px 6px 11px;
-        a {
-          font-size: 10.84px;
-          line-height: 12px;
-        }
+        font-size: 10.84px;
+        line-height: 12px;
       }
     }
   }
@@ -395,10 +400,8 @@
     .right__cta-area {
       button {
         padding: 6px 11px 6px 11px;
-        a {
-          font-size: 10.84px;
-          line-height: 12px;
-        }
+        font-size: 10.84px;
+        line-height: 12px;
       }
     }
   }

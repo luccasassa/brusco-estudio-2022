@@ -80,7 +80,7 @@ html {
   align-items: center;
   gap: 20px;
   z-index: 9999;
-  
+
   animation: body 2.1s ease-in;
 
   @keyframes body {
@@ -126,8 +126,4 @@ html {
       }
     }
   }
-}
-
-.float {
-  display: none;
 }

@@ -1,3 +1,7 @@
+.float {
+  display: none;
+}
+
 .contacto__hero {
   height: 92.4vh;
   width: 100%;
@@ -155,6 +159,11 @@
         line-height: 28px;
         margin-top: -5px;
       }
+    }
+    a {
+      font-size: 14.6324px;
+      line-height: 17px;
+      padding: 9px 17px;
     }
   }
 

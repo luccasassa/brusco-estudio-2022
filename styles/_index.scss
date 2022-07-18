@@ -4,10 +4,12 @@
 
 .myVerticalSwiper {
   width: 100%;
+  margin: 0;
   height: 90vh;
 }
 //---------------------------------------------------HERO
 .hero {
+  margin: 0;
   display: flex;
   background-color: $p8;
   background-image: url('../assets/img/banners/Banner_Muchomasquedisenio.jpg');
@@ -142,7 +144,7 @@
 }
 .left--textArea {
   width: 100%;
-  height: 90%;
+  height: 80%;
   display: flex;
   .left--text {
     width: fit-content;
@@ -174,7 +176,7 @@
 }
 .left--cta {
   width: 100%;
-  height: 10%;
+  height: 20%;
   display: flex;
   a {
     text-decoration: none;
@@ -210,7 +212,7 @@
 }
 .right--textArea {
   width: 100%;
-  height: 90%;
+  height: 80%;
   display: flex;
   .right--text {
     width: fit-content;
@@ -242,7 +244,7 @@
 }
 .right--cta {
   width: 100%;
-  height: 10%;
+  height: 20%;
   display: flex;
   a {
     text-decoration: none;
@@ -355,11 +357,9 @@
   }
   .hero__right--cta {
     button {
-      font-size: 15.2836px;
-      line-height: 18px;
-      height: 35px;
-      width: 105px;
-      background-color: rgba(0, 0, 0, 0);
+      font-size: 14.6324px;
+      line-height: 17px;
+      padding: 9px 17px;
     }
   }
 
