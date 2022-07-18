@@ -4,7 +4,7 @@
   background-color: $p8;
   display: flex;
   .estudio__hero--texts {
-    margin: auto 20% 3% auto;
+    margin: auto 30% 3% auto;
     width: fit-content;
     h1 {
       width: fit-content;
@@ -22,6 +22,8 @@
     div {
       margin-left: auto;
       height: fit-content;
+      display: flex;
+      flex-direction: column;
     }
     p {
       font-family: $font4;
@@ -31,6 +33,18 @@
       line-height: 70px;
       margin-top: -20px;
       margin-left: 250px;
+    }
+    a {
+      background-color: $p1;
+      padding: 11px 22px 11px 22px;
+      margin: auto auto auto 37%;
+      text-transform: uppercase;
+      font-family: $font2;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22.3375px;
+      line-height: 26px;
+      margin-top: 30px;
     }
   }
 }
@@ -218,8 +232,8 @@
       display: flex;
     }
     .swiper-slide img {
-      width: 80%;
-      height: 80%;
+      width: 50%;
+      max-width: 60%;
       object-fit: contain;
       margin: auto;
     }
