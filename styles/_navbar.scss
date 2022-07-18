@@ -14,13 +14,16 @@ nav {
     z-index: 99;
 }
 
-.nav-branding img {
-    width: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nav-branding {
     z-index: 11;
-}
+    
+    img {
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+} 
 
 nav li {
     list-style: none;
@@ -32,6 +35,10 @@ a {
 }
 
 /**********************************/
+
+// .nav-menu {
+//     z-index: 9;
+// }
 
 .nav-menu-list {
     display: flex;
@@ -51,11 +58,11 @@ a {
 .nav-link {
     font-size: 1.2rem;
     transition: 0.3s;
-
 }
 
 /**********************************/
 
 .hamburger {
     display: none;
+    // z-index: 11;
 }

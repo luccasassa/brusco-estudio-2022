@@ -110,8 +110,8 @@ html {
   height: 1vh;
   background-color: #3c3c3b;
   border-radius: 20px;
-  -webkit-animation: loader 1.8s linear;
-          animation: loader 1.8s linear;
+  -webkit-animation: loader 1.9s linear;
+          animation: loader 1.9s linear;
 }
 @-webkit-keyframes loader {
   0% {
@@ -147,12 +147,14 @@ nav {
   z-index: 99;
 }
 
+.nav-branding {
+  z-index: 11;
+}
 .nav-branding img {
   width: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 11;
 }
 
 nav li {
@@ -2600,20 +2602,19 @@ footer {
   }
   .nav-branding img {
     width: 150px;
-    z-index: 11;
   }
   /* CHAU */
   .nav-menu {
     position: fixed;
     left: 100%;
     bottom: 0;
-    height: 90vh;
-    z-index: 9;
     width: 100%;
-    gap: 0;
+    height: 100%;
+    z-index: 9;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 0;
     background-color: #ffffff;
     transition: 0.5s ease;
   }
@@ -2623,18 +2624,14 @@ footer {
     transition: 0.7s ease;
   }
   .nav-menu-list {
-    margin: auto 0 auto 1rem;
+    margin: 20vh 0 auto 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 2.5rem;
   }
-  .nav-item {
-    text-align: center;
-  }
   .nav-link {
     font-size: 1.2rem;
-    margin: auto;
   }
   .nav-menu-social {
     margin: 0 0 20px 0;
