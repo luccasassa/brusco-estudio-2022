@@ -128,6 +128,7 @@
                 </div>
               </div>
             </div>
+            <a href="#" class="a">Ver más</a>
           </div>
 
           <div class="servicios__packaging swiper-slide" id="servicios-packaging">
@@ -588,13 +589,16 @@
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script>
           var swiper = new Swiper(".myVerticalSwiper", {
-            direction: 'vertical',
-        touchReleaseOnEdges: true,
-        slidesPerView: 1,
-        spaceBetween: 0,
-        mousewheel: true,
-        pagination: false,
-        mousewheel: {
+          navigation: {
+          nextEl: '.a',
+          },
+          direction: 'vertical',
+          touchReleaseOnEdges: true,
+          slidesPerView: 1,
+          spaceBetween: 0,
+          mousewheel: true,
+          pagination: false,
+          mousewheel: {
           releaseOnEdges: true,
         },
           });

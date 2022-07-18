@@ -159,7 +159,7 @@
                 </div>
               </div>
               <div class="hero__right--cta">
-                <a href="#">
+                <a href="#" class="a">
                   <button>ver más</button>
                 </a>
               </div>
@@ -648,6 +648,9 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper('.myVerticalSwiper', {
+        navigation: {
+          nextEl: '.a',
+        },
         direction: 'vertical',
         touchReleaseOnEdges: true,
         slidesPerView: 1,

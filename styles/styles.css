@@ -459,12 +459,11 @@ footer {
   font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15.2836px;
-  line-height: 18px;
+  font-size: 22.33px;
+  line-height: 26px;
   text-transform: uppercase;
   margin: auto;
-  height: 35px;
-  width: 105px;
+  padding: 11px 22px;
   border: 0;
   background-color: rgba(0, 0, 0, 0);
   box-shadow: 0px 9px 13px -3px rgba(0, 0, 0, 0.25);
@@ -827,23 +826,18 @@ footer {
 }
 .myVerticalSwiper {
   width: 100%;
-  height: 90vh;
+  height: 92.4vh;
 }
 
 .servicios__hero {
-  height: 90vh;
+  height: 92.4vh;
   width: 100%;
   background-color: #fcfcfc;
   display: flex;
+  flex-direction: column;
 }
 .servicios__hero .servicios__hero--texts {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: 3%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  margin: auto auto 3% auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -858,12 +852,10 @@ footer {
 .servicios__hero .servicios__hero--texts--text {
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 .servicios__hero .servicios__hero--texts--text div {
   margin-left: auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -875,6 +867,17 @@ footer {
   font-size: 51.28px;
   line-height: 70px;
   margin-top: -20px;
+}
+.servicios__hero a {
+  background-color: #ffd73a;
+  padding: 11px 22px 11px 22px;
+  margin: 30px auto 70px auto;
+  text-transform: uppercase;
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.3375px;
+  line-height: 26px;
 }
 
 .servicios__packaging {
@@ -1337,6 +1340,7 @@ footer {
   width: 100%;
   background-color: #fcfcfc;
   display: flex;
+  flex-direction: column;
 }
 .proyectos__hero .proyectos__hero--texts {
   margin: auto auto 3% auto;
@@ -1355,12 +1359,10 @@ footer {
 .proyectos__hero .proyectos__hero--texts--text {
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 .proyectos__hero .proyectos__hero--texts--text div {
   margin-left: auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -1372,6 +1374,17 @@ footer {
   font-size: 51.28px;
   line-height: 70px;
   margin-top: -20px;
+}
+.proyectos__hero a {
+  background-color: #ffd73a;
+  padding: 11px 22px 11px 22px;
+  margin: 30px auto 70px auto;
+  text-transform: uppercase;
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.3375px;
+  line-height: 26px;
 }
 
 .proyectos__alls {
@@ -2373,7 +2386,7 @@ footer {
   height: fit-content;
 }
 .contacto__hero .contacto__hero--texts--text p {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 51.28px;

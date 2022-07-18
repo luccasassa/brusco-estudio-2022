@@ -4,6 +4,7 @@
   width: 100%;
   background-color: $p8;
   display: flex;
+  flex-direction: column;
   .proyectos__hero--texts {
     margin: auto auto 3% auto;
     width: fit-content;
@@ -19,9 +20,9 @@
   .proyectos__hero--texts--text {
     width: 100%;
     display: flex;
+    flex-direction: column;
     div {
       margin-left: auto;
-      width: fit-content;
       height: fit-content;
     }
     p {
@@ -32,6 +33,17 @@
       line-height: 70px;
       margin-top: -20px;
     }
+  }
+  a {
+    background-color: $p1;
+    padding: 11px 22px 11px 22px;
+    margin: 30px auto 70px auto;
+    text-transform: uppercase;
+    font-family: $font2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.3375px;
+    line-height: 26px;
   }
 }
 
