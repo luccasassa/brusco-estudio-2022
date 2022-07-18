@@ -3,6 +3,7 @@
   width: 100%;
   background-color: $p8;
   display: flex;
+  flex-direction: column;
   .estudio__hero--texts {
     margin: auto 30% 3% auto;
     width: fit-content;
@@ -19,11 +20,10 @@
   .estudio__hero--texts--text {
     width: 100%;
     display: flex;
+    flex-direction: column;
     div {
       margin-left: auto;
       height: fit-content;
-      display: flex;
-      flex-direction: column;
     }
     p {
       font-family: $font4;
@@ -34,18 +34,17 @@
       margin-top: -20px;
       margin-left: 250px;
     }
-    a {
-      background-color: $p1;
-      padding: 11px 22px 11px 22px;
-      margin: auto auto auto 37%;
-      text-transform: uppercase;
-      font-family: $font2;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 22.3375px;
-      line-height: 26px;
-      margin-top: 30px;
-    }
+  }
+  a {
+    background-color: $p1;
+    padding: 11px 22px 11px 22px;
+    margin: 30px auto 70px auto;
+    text-transform: uppercase;
+    font-family: $font2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.3375px;
+    line-height: 26px;
   }
 }
 

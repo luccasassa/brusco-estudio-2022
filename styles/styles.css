@@ -1868,6 +1868,7 @@ footer {
   width: 100%;
   background-color: #fcfcfc;
   display: flex;
+  flex-direction: column;
 }
 .estudio__hero .estudio__hero--texts {
   margin: auto 30% 3% auto;
@@ -1889,14 +1890,13 @@ footer {
 .estudio__hero .estudio__hero--texts--text {
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 .estudio__hero .estudio__hero--texts--text div {
   margin-left: auto;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  display: flex;
-  flex-direction: column;
 }
 .estudio__hero .estudio__hero--texts--text p {
   font-family: "DM Serif Display", serif;
@@ -1907,17 +1907,16 @@ footer {
   margin-top: -20px;
   margin-left: 250px;
 }
-.estudio__hero .estudio__hero--texts--text a {
+.estudio__hero a {
   background-color: #ffd73a;
   padding: 11px 22px 11px 22px;
-  margin: auto auto auto 37%;
+  margin: 30px auto 70px auto;
   text-transform: uppercase;
   font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22.3375px;
   line-height: 26px;
-  margin-top: 30px;
 }
 
 .estudio__presentation {
@@ -2343,6 +2342,7 @@ footer {
   width: 100%;
   background-color: #fcfcfc;
   display: flex;
+  flex-direction: column;
 }
 .contacto__hero .contacto__hero--texts {
   margin: auto auto 3% auto;
@@ -2351,7 +2351,10 @@ footer {
   width: fit-content;
 }
 .contacto__hero .contacto__hero--texts h1 {
-  font-family: "DM Serif Display";
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "DM Serif Display", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 131.01px;
@@ -2361,12 +2364,10 @@ footer {
 .contacto__hero .contacto__hero--texts--text {
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 .contacto__hero .contacto__hero--texts--text div {
   margin-left: auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -2378,6 +2379,17 @@ footer {
   font-size: 51.28px;
   line-height: 70px;
   margin-top: -20px;
+}
+.contacto__hero a {
+  background-color: #ffd73a;
+  padding: 11px 22px 11px 22px;
+  margin: 30px auto 70px auto;
+  text-transform: uppercase;
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.3375px;
+  line-height: 26px;
 }
 
 .contacto__form {
@@ -2439,11 +2451,12 @@ footer {
   display: flex;
 }
 .contacto__form .contacto__form--form .input-button input {
+  cursor: pointer;
   border: 0;
   background-color: #ffd73a;
   font-family: "Helvetica", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 26.971px;
   line-height: 31px;
   padding: 14px 40px 14px 40px;

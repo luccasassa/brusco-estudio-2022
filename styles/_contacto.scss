@@ -3,11 +3,13 @@
   width: 100%;
   background-color: $p8;
   display: flex;
+  flex-direction: column;
   .contacto__hero--texts {
     margin: auto auto 3% auto;
     width: fit-content;
     h1 {
-      font-family: 'DM Serif Display';
+      width: fit-content;
+      font-family: $font4;
       font-style: normal;
       font-weight: 400;
       font-size: 131.01px;
@@ -18,13 +20,12 @@
   .contacto__hero--texts--text {
     width: 100%;
     display: flex;
+    flex-direction: column;
     div {
       margin-left: auto;
-      width: fit-content;
       height: fit-content;
     }
     p {
-      //margin-left: auto;
       font-family: 'DM Serif Display';
       font-style: normal;
       font-weight: 400;
@@ -32,6 +33,17 @@
       line-height: 70px;
       margin-top: -20px;
     }
+  }
+  a {
+    background-color: $p1;
+    padding: 11px 22px 11px 22px;
+    margin: 30px auto 70px auto;
+    text-transform: uppercase;
+    font-family: $font2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.3375px;
+    line-height: 26px;
   }
 }
 
@@ -91,11 +103,12 @@
       margin-top: 2%;
       display: flex;
       input {
+        cursor: pointer;
         border: 0;
         background-color: $p1;
         font-family: $font2;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 26.971px;
         line-height: 31px;
         padding: 14px 40px 14px 40px;
