@@ -1489,6 +1489,7 @@ footer {
     display: none;
   }
   .right__labels--mobile {
+    margin-top: 20px;
     display: block;
     width: 100%;
   }
@@ -1561,6 +1562,7 @@ footer {
     display: none;
   }
   .left__labels--mobile {
+    margin-top: 20px;
     display: block;
     width: 100%;
   }
@@ -1770,7 +1772,7 @@ footer {
   float: left;
   width: 48%;
   height: 45%;
-  margin: 0.5% 1%;
+  margin: 1% 1%;
   background-color: #fcfcfc;
   text-decoration: none;
   color: black;
@@ -3149,7 +3151,7 @@ footer {
     padding: 0 1rem;
   }
   .nav-branding img {
-    width: 150px;
+    width: 70px;
   }
   /* CHAU */
   .nav-menu {
