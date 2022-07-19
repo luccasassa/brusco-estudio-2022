@@ -8,7 +8,7 @@
   }
 
   .nav-branding img {
-    width: 70px;
+    width: 100px;
   }
 
   /* CHAU */
@@ -74,7 +74,7 @@
     cursor: pointer;
   }
 
-  .hamburger:active .bar {
+  .hamburger:hover .bar {
     background-color: $p1;
   }
 
@@ -247,7 +247,7 @@
     bottom: 15px;
     right: 15px;
 
-    background-color: #02c408;
+    background-color: #44c253;
     border-radius: 50%;
     box-shadow: 1px 7px 6px -3px rgba(74, 74, 74, 0.75);
     z-index: 2;
